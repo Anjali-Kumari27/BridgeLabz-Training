@@ -5,13 +5,13 @@ public class ProfitPercent{
     
 
     //created variable costPrice and assigned value to it
-    int COST_PRICE = 129;
+    double COST_PRICE = 129;
 
     //created variable sellingPrice and assigned value to it
-    int SELLING_PRICE = 191;
+    double SELLING_PRICE = 191;
 
     //calculating profit here
-    int profit = SELLING_PRICE - COST_PRICE;
+    double profit = SELLING_PRICE - COST_PRICE;
 
     //calculating profitPercentage
     double profitPercentage = (profit / COST_PRICE) * 100;
