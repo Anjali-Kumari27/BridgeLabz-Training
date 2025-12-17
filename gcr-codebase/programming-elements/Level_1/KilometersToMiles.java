@@ -1,8 +1,8 @@
 public class KilometersToMiles{
      public static void main(String args[]){
-     double kilometers = 94;
+     double kilometers = 10.8;
      
-     double Age = (CurrentYear - BirthYear);
-     System.out.println ("Harry's age in " + CurrentYear + "is" + Age);
+     double distanceInMiles = kilometers * 1.6;
+     System.out.println (" The distance " + kilometers + "km in miles is" + distanceInMiles );
 
 }
