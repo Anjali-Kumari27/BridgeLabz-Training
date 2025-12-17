@@ -1,9 +1,8 @@
-public class HarryAge{
+public class KilometersToMiles{
      public static void main(String args[]){
-     int BirthYear = 2000;
-     int CurrentYear = 2024;
+     int birthYear =2000;
+     int currentYear = 2024;
      
      int Age = (CurrentYear - BirthYear);
-     System.ot.println ("Harry's age in " + CurrentYear + "is" + Age);
+     System.out.println ("Harry's age in " + CurrentYear + "is" + Age);
 
-}
