@@ -10,7 +10,7 @@ public class SpringSeasonChecker{
 
     
     //checking it is spring season or not as it is from March 20 to June 20
-    if((month ==3 && day>=20) || (month==4 && day>=20) || (month==5 && day>=20) || (month==6 && day>=20))
+    if((month ==3 && day>=20) || (month==4 ) || (month==5) || (month==6 && day<=20))
       
       {
         System.out.println("It's a Spring Season");
