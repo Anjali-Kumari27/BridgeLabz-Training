@@ -50,3 +50,24 @@
 
 *Code Link:*
 [Day 3 - Programming Elements](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+
+
+### Day 4 : Control Flow & Logical Constructs
+**Date:** 19-Dec-2025
+
+1. Studied logical constructs in Java :
+   - `if` and `if-else` statement
+   - `switch` statement
+   - Ternary operator
+2. Practiced iteration statements :
+   - `for` loop
+   - `while` loop
+   - `do-while` loop
+3. Used `break` and `continue` statements
+4. Solved logical problems such as :
+   - Factorial
+   - Prime number check
+5. Committed and pushed solutions to the repository.
+
+*Code Link:*
+[Day 4 - Control Flow](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
