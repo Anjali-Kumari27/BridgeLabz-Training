@@ -71,3 +71,20 @@
 
 *Code Link:*
 [Day 4 - Control Flow](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+
+
+### Day 5 : Arrays & Basic Problem Solving
+**Date:** 20-Dec-2025
+
+1. Studied arrays in Java, including :
+  - Single-dimensional arrays
+  - Multi-dimensional arrays
+2. Practiced array traversal and operations.
+3. Solved problems related to :
+  - Finding missing elements
+  - Basic array-based logic
+4. Strengthened logical thinking using array problems.
+5. Committed and pushed solutions to the repository.
+
+*Code Link:*
+[Day 5 - Arrays](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
