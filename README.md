@@ -123,3 +123,21 @@
 
 *Code Link*
 [Day 7 - Built-in Functions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
+
+
+
+
+## Week 2: Problem Solving , LeetCode & Scenario-Based Programs
+
+### Day 8: LeetCode & Scenario-Based Practice
+**Date:** 24-Dec-2025
+
+1. Solved basic array problems on LeetCode to understand problem statements and problem-solving approaches.
+2. Practiced array traversal, indexing, and simple conditional logic in Java.
+3. Solved assigned scenario-based Java programs to Strengthen my core java knowledge.
+4. Focused on writing clean, readable, and modular code.
+5. Committed and pushed all solutions to the repository.
+
+*Code Link*
+[Day 8 - Scenario-Based Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+[Leetcode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
