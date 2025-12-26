@@ -6,5 +6,7 @@ public class VolOfCylinder{
     double heig=sc.nextDouble();
     double volume= (Math.PI * rad * rad * heig);
     System.out.println("Volume of Cylinder is :" + volume);
+
+    sc.close();
     }
 }
