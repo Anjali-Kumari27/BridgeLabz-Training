@@ -139,5 +139,5 @@
 5. Committed and pushed all solutions to the repository.
 
 *Code Link*
-[Day 8 - Scenario-Based Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
-[Leetcode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
+- [Day 8 - Scenario-Based Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+- [Leetcode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
