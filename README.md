@@ -107,7 +107,7 @@
 
 
 
-## Week 2: Problem Solving , LeetCode & Scenario-Based Programs
+## Week 2: Strings and Extra Problem Solving , LeetCode & Scenario-Based Programs
 
 ### Day 7 : Java Strings
 **Date:** 22-Dec-2025
@@ -166,4 +166,17 @@
 - [Leetcode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
 
 
+### Day 10: LeetCode & Scenario-Based Problems
+**Date:** 26-Dec-2025
 
+1. Solved 3 scenario-based problems using Java, which are:
+   - Election Booth Manager
+   - Metro smart card fare deduction
+   - Raj's result generatore
+3. Practiced 2 array-based problems on LeetCode.
+4. Focused on logical thinking and clean code.
+5. Committed and pushed all solutions.
+
+*Code Link*
+- [Day 10 - Scenario-Based Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+- [Leetcode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
