@@ -1,7 +1,7 @@
 ## Week 1: Git, GitHub & Java Programming Fundamentals
 
 ### Day 1: Git & GitHub Setup  
-**Date:** 16-Dec-2025
+**Date:** 15-Dec-2025
 
 1. Installed and configured Git.
 2. Set up GitHub repository.
@@ -28,7 +28,7 @@
 
 
 ### Day 2 : Git Practice & Basic Java Programs
-**Date:** 17-Dec-2025
+**Date:** 16-Dec-2025
 
 1. Practiced Git Workflow to understand commits and version control.
 2. Solved very Basic Java Programs to understand syntax and Structure.
@@ -39,7 +39,7 @@
 
 
 ### Day 3 : Programming Elements in Java
-**Date:** 18-Dec-2025
+**Date:** 17-Dec-2025
 
 1. Studied Java Programming elements :
   - Variables and Data types
@@ -53,7 +53,7 @@
 
 
 ### Day 4 : Control Flow & Logical Constructs
-**Date:** 19-Dec-2025
+**Date:** 18-Dec-2025
 
 1. Studied logical constructs in Java :
    - `if` and `if-else` statement
@@ -74,7 +74,7 @@
 
 
 ### Day 5 : Arrays & Basic Problem Solving
-**Date:** 20-Dec-2025
+**Date:** 19-Dec-2025
 
 1. Studied arrays in Java, including :
   - Single-dimensional arrays
@@ -90,54 +90,80 @@
 [Day 5 - Arrays](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 
-### Day 6 : Strings & Methods 
-**Date:** 22-Dec-2025
+### Day 6 : Java Methods 
+**Date:** 20-Dec-2025
 
-1. Studied String concepts, including :
-   - String creation
-   - String methods
-   - Character processing
-2. Implemented programs for string manipulation.
-3. Studied Java methods, including :
-   - Method declaration
+1. Studied Java methods to understand code reusability and structure, including :
+   - Method declaration and definition
    - Method calling
    - Parameter passing
-4. Practiced reusable logic using methods.
-5. Committed and pushed solutions to the repository.
+2. Implemented programs using methods to reuse logic and reduce code duplication.
+3. Practiced organizing code by breaking problems into smaller methods.
+4. Committed and pushed solutions to the repository.
 
 *Code Link:*
-[Day 6 - String & methods](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
-
-
-### Day 7 : Built-in Functions & Extra Practice
-**Date:** 23-Dec-2025
-
-1. Practiced java built-in functions.
-2. Implemented utility programs such as :
-   - Temperature converter
-3. Improved understanding of :
-   - Input handling
-   - Type conversion
-4. Organized programs into proper folders.
-5. Committed and pushed all changes successfully.
-
-*Code Link*
-[Day 7 - Built-in Functions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
+[Day 6 - Java methods](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods))
 
 
 
 
 ## Week 2: Problem Solving , LeetCode & Scenario-Based Programs
 
-### Day 8: LeetCode & Scenario-Based Practice
-**Date:** 24-Dec-2025
+### Day 7 : Java Strings
+**Date:** 22-Dec-2025
 
-1. Solved basic array problems on LeetCode to understand problem statements and problem-solving approaches.
-2. Practiced array traversal, indexing, and simple conditional logic in Java.
-3. Solved assigned scenario-based Java programs to Strengthen my core java knowledge.
-4. Focused on writing clean, readable, and modular code.
+1. Studied String concepts.
+2. String creation.
+3. String methods
+4. Worked on programs involving character-level processing and basic string manipulation.
+5. Committed and pushed all changes successfully.
+
+*Code Link*
+[Day 7 - Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+
+
+### Day 8: Extra Built-in Functions & String Practice
+**Date:** 23-Dec-2025
+
+1. Practiced Java built-in classes such as `Math` and `Random`.
+2. Worked with date and time handling using Java 8+ date-time APIs:
+ - `LocalDate`
+ - `LocalTime`
+ - `LocalDateTime`
+ - `ZonedDateTime`
+ - `DateTimeFormatter`
+3. Practiced String concepts including:
+ - Creating strings and taking string input
+ - Escape sequences (`\`)
+ - String arrays
+ - Strings as method parameters
+ - Built-in `String` class methods
+ - ASCII character codes.
+4. Studied Java exception handling concepts:
+ - Java exception hierarchy
+ - Checked and unchecked exceptions
+ - `java.lang.RuntimeException`
+5. Implemented utility programs such as temperature converter.
+6. Organized programs into appropriate folders.
 5. Committed and pushed all solutions to the repository.
 
 *Code Link*
-- [Day 8 - Scenario-Based Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+[Day 8 - Extras Problem](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
+
+
+### Day 9: LeetCode & Scenario-Based Problems
+**Date:** 24-Dec-2025
+
+1. Solved 2 scenario-based problems using Java, which are:
+   - The Coffee Counter Chronicles
+   - Maya's BMI Fitness Tracker
+3. Practiced 2 array-based problems on LeetCode.
+4. Focused on logical thinking and clean code.
+5. Committed and pushed all solutions.
+   
+*Code Link*
+- [Day 9 - Scenario-Based Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 - [Leetcode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
+
+
+
