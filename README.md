@@ -15,8 +15,8 @@ BridgeLabz-Training/
 │   │   │── JavaOopsConcepts/
 │   │   │   │── src/
 │   │   │   │   │── com/
-│   │   │   │   │   │── classandobject/
-│   │
+│   │   │   │   │   │── classandobjects/
+│   │   │   │   │   │── constructor/
 │   │── leet-code-codebase/
 │   │── scenario-based-codebase/
 │   │── .gitignore
@@ -32,4 +32,23 @@ BridgeLabz-Training/
 [Day 10: OOP basics](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobjects)
 
 
+## Day 11 : Constructors, Access Modifiers & Static Members
+**Date:** 27-Dec-2025
 
+1. Learned about constructors in java and their role in Object initialization.
+2. Understood different types of constructors :
+   - Default constructor
+   - Parameterized constructor
+   - Copy constructor
+3. Understood constructor overloading by defining multiple constructors in a single class.
+4. Studied access modifiers in java:
+   - `public`
+   - `protected`
+   - `private`
+   - default
+5. Understood the difference between `instance` and `static` variables and methods.
+6. Implemented programs to observe how static members are shared across objects.
+7. Committed and pushed all the work.
+
+*Code Link*
+[Day 11: Constructors & OOP practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/levelone)
