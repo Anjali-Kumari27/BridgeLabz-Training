@@ -180,3 +180,19 @@
 *Code Link*
 - [Day 10 - Scenario-Based Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 - [Leetcode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
+
+
+### Day 11: Continued LeetCode Problems
+**Date:** 27-Dec-2025
+
+1. Practiced 3 array-based problems on LeetcCode, which are:
+   - Remove duplicate elements from sorted array
+   - Remove element from array
+   - PlusOne in Max digit of array
+2. Solved 2 string-based problems, which are:
+   - Converted string to lowerCase
+   - Greatest letter in upperCase
+3.Committed and pushed all solutions
+
+*Code Link*
+[Day 11 - LeetCode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase)
