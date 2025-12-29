@@ -28,7 +28,7 @@ BridgeLabz-Training/
 6. Prepared to begin Classes and Objects.
 7. Committed and pushed all the work.
 
-*Code Link*
+🔗 *Code Link*
 [Day 10: OOP basics](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobjects)
 
 
@@ -50,5 +50,32 @@ BridgeLabz-Training/
 6. Implemented programs to observe how static members are shared across objects.
 7. Committed and pushed all the work.
 
-*Code Link*
+🔗 *Code Link*
 [Day 11: Constructors & OOP practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/levelone)
+
+
+
+## Week 3: Building Core OOP Concepts in Java 
+
+## Day 12 : Java Keywords – `static`, `this`, `final` & `instanceof`
+**Date:** 28-Dec-2025
+
+1. Learned the use of the `static` keyword to understand :
+  - How shared variables and methods can be shared across all objects of a class
+  - Reduced memory usage and avoided redundancy
+  - Avoid unnecessary object-level duplication
+2. Practiced the `this` keyword:
+  - Used to resolve ambiguity between instance variables and constructor parameters
+  - Improved clarity during object initialization
+3. Understood the importance of `final` keyword :
+  - Used `final` variables for identifiers like IDs, account numbers, ISBNs, etc.
+  - Ensured values remain unchanged once assigned
+4. Learned and applied `instanceof` operator:
+  - Performed safe type checking at runtime
+  - Prevented runtime errors during object handling
+5. Implemented multiple real-world Java programs to apply these concepts:
+6. Focused on writing structured, readable, and reusable code following OOP best practices.
+7. Committed and pushed all the programs to the repository.
+
+🔗 *Code Link*
+[Day 12: Java Keywords](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
