@@ -16,4 +16,3 @@ public class Chef extends Person implements Worker {
         System.out.println("Duties    : Cooking food and managing kitchen");
     }
 }
-
