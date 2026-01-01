@@ -58,7 +58,7 @@ BridgeLabz-Training/
 ## Week 3: Building Core OOP Concepts in Java 
 
 ## Day 12 : Java Keywords – `static`, `this`, `final` & `instanceof`
-**Date:** 28-Dec-2025
+**Date:** 29-Dec-2025
 
 1. Learned the use of the `static` keyword to understand :
   - How shared variables and methods can be shared across all objects of a class
@@ -79,3 +79,28 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 12: Java Keywords](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
+
+
+## Day 13 : Object Modeling and Class Diagram
+**Date:** 30-Dec-2025
+
+1. Understood the difference between `Class` and `Objects`:
+   - `Class` as a blueprint defining structure and behavior
+   - `Object` as a real instance holding actual data
+2. Learned how memory allocation works for classes and objects:
+   - Class loaded in JVM
+   - Objects created in heap memory
+3. Studied how objects represent real-world entities with unique state and shared behavior.
+4. Studied **object relationships**:
+   - `Association`
+   - `Aggregation`
+   - `Composition`
+   - `Communication`
+5. Learned how objects communicate using method calls.
+6. Introduced **UML diagrams**:
+   - `Class diagrams` to represent structure and relationships
+   - `Sequence diagrams` to understand interaction flow between objects
+7. Committed and pushed all updates to the repository.
+
+🔗 *Code Link*
+[Day 13: Object Modeling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
