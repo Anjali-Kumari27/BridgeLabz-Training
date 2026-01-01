@@ -17,6 +17,9 @@ BridgeLabz-Training/
 │   │   │   │   │── com/
 │   │   │   │   │   │── classandobjects/
 │   │   │   │   │   │── constructor/
+|   |   |   |   |   |── javakeywords/
+|   |   |   |   |   |── objectmodeling/
+|   |   |   |   |   |── inheritance/
 │   │── leet-code-codebase/
 │   │── scenario-based-codebase/
 │   │── .gitignore
@@ -30,6 +33,7 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 10: OOP basics](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobjects)
+
 
 
 ## Day 11 : Constructors, Access Modifiers & Static Members
@@ -52,6 +56,7 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 11: Constructors & OOP practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/levelone)
+
 
 
 
@@ -81,6 +86,7 @@ BridgeLabz-Training/
 [Day 12: Java Keywords](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
 
 
+
 ## Day 13 : Object Modeling and Class Diagram
 **Date:** 30-Dec-2025
 
@@ -97,10 +103,34 @@ BridgeLabz-Training/
    - `Composition`
    - `Communication`
 5. Learned how objects communicate using method calls.
-6. Introduced **UML diagrams**:
+6. Learned **UML diagrams**:
    - `Class diagrams` to represent structure and relationships
    - `Sequence diagrams` to understand interaction flow between objects
 7. Committed and pushed all updates to the repository.
 
 🔗 *Code Link*
 [Day 13: Object Modeling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+
+
+
+## Day 14 : Inheritance
+**Date:** 31-Dec-2025
+
+1. Learned the concept of `inheritance` to promote code reusability and hierarchy.
+2. Studied different types of inheritance:
+   - `Single-level` inheritance
+   - `Multilevel` inheritance
+   - `Hierarchical` inheritance
+3. Understood key features of inheritance such as:
+   - Code reuse
+   - Method overriding
+   - Runtime polymorphism
+4. Practiced `method overriding` to modify parent class behavior in child classes.
+5. Learned how **constructors behave in inheritance** and how parent constructors are invoked.
+6. Explored the relationship between `polymorphism` and `inheritance`.
+7. Studied the role of `access modifiers` in inheritance and their visibility rules.
+8. Implemented programs to demonstrate inheritance concepts.
+9. Committed and pushed all updates to the repository.
+
+🔗 *Code Link*  
+[Day 14: Inheritance](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
