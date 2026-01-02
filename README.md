@@ -20,6 +20,7 @@ BridgeLabz-Training/
 |   |   |   |   |   |── javakeywords/
 |   |   |   |   |   |── objectmodeling/
 |   |   |   |   |   |── inheritance/
+|   |   |   |   |   |── encapsulationpolymorphismabstraction/
 │   │── leet-code-codebase/
 │   │── scenario-based-codebase/
 │   │── .gitignore
@@ -134,3 +135,22 @@ BridgeLabz-Training/
 
 🔗 *Code Link*  
 [Day 14: Inheritance](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
+
+
+## Day 15 : Encapsulation , Polymorphism , Abstraction & Interface
+**Date:** 01-Jan-2026
+
+1. Learned `Encapsulation` to protect data using private variables and public methods.
+2. Practiced `Polymorphism` to achieve flexibility through method overriding and dynamic method dispatch.
+3. Studied **Abstract Classes** to define common behavior while allowing partial implementation.
+4. Learned `Interfaces` to achieve full abstraction and support multiple inheritance in Java.
+5. Understood **upcasting and downcasting**:
+   - Upcasting for generalization and runtime polymorphism
+   - Downcasting for accessing child-specific behavior safely
+6. Implemented programs demonstrating `abstraction` and `polymorphism` using interfaces and abstract classes.
+7. Focused on writing clean, modular, and maintainable OOP-based code.
+8. Committed and pushed all updates to the repository.
+
+🔗 *Code Link*  
+[Day 15: Encapsulation & Abstraction](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationpolymorphismabstraction)
