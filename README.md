@@ -196,3 +196,23 @@
 
 *Code Link*
 [Day 11 - LeetCode Practice](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase)
+
+
+
+
+## Week 3: Practiced Scenario-Based Programs
+
+### Day 12: Scenario-Based Problems
+**Date:** 29-Dec-2025
+
+1. Solved 5 scenario-based problems using Java, which are:
+   - The Number Guessing Game 
+   - Parking Lot Gate System
+   - Shopkeeper’s Discount Dashboard
+   - School Bus Attendance System
+   - Phone Recharge Simulator 
+3. Focused on logical thinking and clean code.
+4. Committed and pushed all solutions.
+
+*Code Link*
+[Day 12 - Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
