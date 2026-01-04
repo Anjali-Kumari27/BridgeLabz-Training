@@ -230,4 +230,21 @@
 3. Focused on logical thinking and clean code.
 4. Committed and pushed all solutions.
 
+*Code Link*
 [Day 13 - Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+
+### Day 14: Scenario-Based Problems
+**Date:** 31-Dec-2025
+
+1. Solved 5 scenario-based problems using Java, which are:
+   - Digital Watch Simulation 
+   - Online Quiz Application 
+   - Currency Exchange Kiosk
+   - Bus Route Distance Tracker
+   - Festival Lucky Draw  
+3. Focused on logical thinking and clean code.
+4. Committed and pushed all solutions.
+
+*Code Link*
+[Day 14 - Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
