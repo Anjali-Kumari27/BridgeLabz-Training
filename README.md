@@ -216,3 +216,18 @@
 
 *Code Link*
 [Day 12 - Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+
+### Day 13: Scenario-Based Problems
+**Date:** 30-Dec-2025
+
+1. Solved 5 scenario-based problems using Java, which are:
+   - Temperature Logger 
+   - Train Reservation Queue 
+   - Sandeep’s Fitness Challenge Tracker
+   - Movie Ticket Booking App
+   - Rohan’s Library Reminder App  
+3. Focused on logical thinking and clean code.
+4. Committed and pushed all solutions.
+
+[Day 13 - Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
