@@ -6,6 +6,7 @@ Each branch focuses on a specific phase of learning:
 - Java Object-Oriented Programming
 - Data Structures & Algorithms
 
+
 ## Week 1 & Week 2: Core Java Programming
 
 Branch: `core-java-practice`
@@ -22,6 +23,7 @@ Topics Covered:
   
 [Link](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice)
 
+
 ## Week 2 & Week 3: Java Object-Oriented Programming
 
 Branch: `java-oops-practice`
@@ -36,6 +38,7 @@ Topics Covered:
 - Scenario-based OOP applications
 
 [Link](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice)
+
 
 ## Week 3: Data Structures & Algorithms
 
@@ -94,13 +97,15 @@ BridgeLabz-Training/
 ```
 
 
-Notes
-1.Each branch contains its own detailed README with day-wise learning logs
+### Notes
+
+1. Each branch contains its own detailed README with day-wise learning logs
 2. The main branch README acts as a central overview
 3. Repository is updated continuously as training progresses
 
 
-🎓 Learnings & Best Practices
+### 🎓 Learnings & Best Practices
+
 - Code Organization: Following industrial standards
 - Naming Conventions: Camel case, Pascal case and meaningful names
 - Version Control: Regular commits with descriptive messages
