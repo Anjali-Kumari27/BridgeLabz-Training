@@ -173,3 +173,17 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 16: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+
+## Day 17 : Scenario-Based Questions
+**Date:** 02-Jan-2026
+
+1. Solved 2 scenario-based problems, which includes problem like
+   - CabbyGo – A Ride-Hailing App in the Making
+   - MyBank – Managing Customer Accounts
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 17: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
