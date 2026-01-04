@@ -141,8 +141,10 @@ BridgeLabz-Training/
 ## Day 15 : Encapsulation , Polymorphism , Abstraction & Interface
 **Date:** 01-Jan-2026
 
-1. Learned `Encapsulation` to protect data using private variables and public methods.
-2. Practiced `Polymorphism` to achieve flexibility through method overriding and dynamic method dispatch.
+1. Learned `Encapsulation` which shows
+   - how to protect data using private variables and public methods.
+2. Practiced `Polymorphism` which shows
+   - how to achieve flexibility through method overriding and dynamic method dispatch.
 3. Studied **Abstract Classes** to define common behavior while allowing partial implementation.
 4. Learned `Interfaces` to achieve full abstraction and support multiple inheritance in Java.
 5. Understood **upcasting and downcasting**:
@@ -154,3 +156,20 @@ BridgeLabz-Training/
 
 🔗 *Code Link*  
 [Day 15: Encapsulation & Abstraction](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationpolymorphismabstraction)
+
+
+
+## Day 16 : Scenario-Based Questions
+**Date:** 02-Jan-2026
+
+1. Solved 5 scenario-based problems, which includes problem like
+   - Hospital patient management system
+   - Vehicle rental application
+   - University course enrollment system
+   - E-Wallet application
+   - Smart home automation system
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 16: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
