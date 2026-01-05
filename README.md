@@ -110,7 +110,8 @@ BridgeLabz-Training/
 7. Committed and pushed all updates to the repository.
 
 🔗 *Code Link*
-[Day 13: Object Modeling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+- [Day 13: Object Modeling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+- [Day 13: Object, class and sequence diagram](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling/classobjectsequencediagram)
 
 
 
