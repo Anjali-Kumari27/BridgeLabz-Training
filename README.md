@@ -40,5 +40,5 @@ BridgeLabz-Training/
 4. Committed and pushed all changes to GitHub.
 
 *Code Link*
-[Day 17 : Stack and Queue](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stackqueue)
-[DAy 17 : HashMap and hash functions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/hashmapandhashfun)
+- [Day 17 : Stack and Queue](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stackqueue)
+- [DAy 17 : HashMap and hash functions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/hashmapandhashfun)
