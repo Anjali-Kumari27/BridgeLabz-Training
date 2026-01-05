@@ -28,7 +28,7 @@ BridgeLabz-Training/
 [Day 16 : Linked List](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/linkedlist)
 
 
-### Day 17: Introduction to Data Structures & Algorithms  
+### Day 17: Stack , Queue and HashMap  
 **Date:** 03-Jan-2026
 
 1. Studied core Data Structures:
@@ -40,4 +40,5 @@ BridgeLabz-Training/
 4. Committed and pushed all changes to GitHub.
 
 *Code Link*
-[Day 17 : Stack, Queue and Hashmap](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stackqueue)
+[Day 17 : Stack and Queue](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stackqueue)
+[DAy 17 : HashMap and hash functions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/hashmapandhashfun)
