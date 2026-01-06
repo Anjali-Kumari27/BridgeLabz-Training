@@ -178,7 +178,7 @@ BridgeLabz-Training/
 
 
 ## Day 17 : Scenario-Based Questions
-**Date:** 02-Jan-2026
+**Date:** 04-Jan-2026
 
 1. Solved 2 scenario-based problems, which includes problem like
    - CabbyGo – A Ride-Hailing App in the Making
@@ -188,3 +188,19 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 17: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+## Week 4 : Applying OOps concepts While Solving Scenario-based question
+
+## Day 18 : Scenario-Based Questions
+**Date:** 05-Jan-2026
+
+1. Solved 2 scenario-based problems, which includes problem like
+   - SwiftCart – The Grocery Shopping App
+   - CampusConnect – College Information System
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 17: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
