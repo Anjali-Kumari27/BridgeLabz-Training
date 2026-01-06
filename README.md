@@ -204,3 +204,18 @@ BridgeLabz-Training/
 🔗 *Code Link*
 [Day 17: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
 
+
+
+## Day 19 : Scenario-Based Questions
+**Date:** 06-Jan-2026
+
+1. Solved 4 scenario-based problems, which includes problem like
+- EventEase – Event Management Platform
+- FitTrack – Your Personal Fitness Tracker
+- EduMentor – Personalized Learning Platform
+- PetPal – Virtual Pet Care App
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 19: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
