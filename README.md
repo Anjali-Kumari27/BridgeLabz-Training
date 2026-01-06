@@ -7,52 +7,6 @@ Each branch focuses on a specific phase of learning:
 - Data Structures & Algorithms
 
 
-## Week 1 & Week 2: Core Java Programming
-
-Branch: `core-java-practice`
-Topics Covered:
-- Git & GitHub basics
-- Java programming fundamentals
-- Variables, data types, operators
-- Control flow statements
-- Arrays & strings
-- Methods & code reusability
-- Exception handling
-- LeetCode practice 
-- Scenario-based problems
-  
-[Link](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice)
-
-
-## Week 2 & Week 3: Java Object-Oriented Programming
-
-Branch: `java-oops-practice`
-Topics Covered:
-- Classes & objects
-- Constructors & access modifiers
-- Java keywords (static, this, final, instanceof)
-- Object modeling & UML diagrams
-- Inheritance & polymorphism
-- Encapsulation & abstraction
-- Interfaces & casting
-- Scenario-based OOP applications
-
-[Link](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice)
-
-
-## Week 3: Data Structures & Algorithms
-
-Branch: `dsa-practice`
-Topics Covered:
-- DSA fundamentals
-- Linked lists (singly, doubly, circular)
-- Stack & queue
-- HashMap & hashing
-- Implementation-based problem solving
-
-[Link](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice)
-
-
 ### High-Level Project Structure
 ```
 BridgeLabz-Training/
@@ -60,41 +14,115 @@ BridgeLabz-Training/
 ├── 📁 core-java-practice/
 │   ├── 📁 gcr-codebase/
 │   │   ├── 📁 programming-prerequisite/          # Basic Java programs 
-│   │   ├── 📁 programming-elements/   # Java programming elements 
-│   │   ├── 📁 control-flow/           # If-else, loops, switch 
-│   │   ├── 📁 arrays/                  # Array operations
-│   │   ├── 📁 methods/                 # Method practices
-│   │   ├── 📁 strings/                 # String manipulation 
-│   │   └── 📁 Extras/                  # Built-in methods
-│   ├── 📁 leetcode-codebase/          # LeetCode solutions
-│   └── 📁 scenario-based/     # Real-world problems
+│   │   ├── 📁 programming-elements/              # Java programming elements 
+│   │   ├── 📁 control-flow/                      # If-else, loops, switch 
+│   │   ├── 📁 arrays/                            # Array operations
+│   │   ├── 📁 methods/                           # Method practices
+│   │   ├── 📁 strings/                           # String manipulation 
+│   │   └── 📁 Extras/                            # Built-in methods
+│   ├── 📁 leetcode-codebase/                     # LeetCode solutions
+│   └── 📁 scenario-based/                        # Real-world problems
 │
 ├── 📁 java-oops-practice/
 │   ├── 📁 gcr-codebase/
 │   │   └── 📁 JavaOopsConcepts/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
-│   │               ├── 📁 classandobjects/    # Procedural vs OOP, fundamentals
-│   │               ├── 📁 constructor/       # Constructor, access modifiers
-│   │               ├── 📁 javakeywords/    # Keywords, instance vs class members
-│   │               ├── 📁 objectmodeling/    # Diagrams, relationships
-│   │               ├── 📁 inheritance/       # Inheritance & overriding
+│   │               ├── 📁 classandobjects/                          # Procedural vs OOP, fundamentals
+│   │               ├── 📁 constructor/                              # Constructor, access modifiers
+│   │               ├── 📁 javakeywords/                             # Keywords, instance vs class members
+│   │               ├── 📁 objectmodeling/                           # Diagrams, relationships
+│   │               ├── 📁 inheritance/                              # Inheritance & overriding
 │   │               └── 📁 encapsulationpolymorphismabstraction/     # Abstraction & polymorphism
-│   ├── 📁 leetcode-codebase/                # LeetCode solutions
-│   └── 📁 scenario-based/           # Real-world problems
+│   ├── 📁 leetcode-codebase/                                        # LeetCode solutions
+│   └── 📁 scenario-based/                                           # Real-world problems
 │
 └── 📁 dsa-practice/
     ├── 📁 gcr-codebase/
     │   └── 📁 DSAProgramming/
     │       └── 📁 src/
     │           └── 📁 com/
-    │               ├── 📁 linkedlist/         # Singly, Doubly, Circular Linked List
-    │               └── 📁 stackqueue/         # Stack, Queue problems
-    │               └── 📁 hashmapandhashfun/  # HashMap problems
-    ├── 📁 leetcode-codebase/                  # DSA LeetCode solutions
-    └── 📁 scenario-based/                     # DSA scenario-based problems
+    │               ├── 📁 linkedlist/               # Singly, Doubly, Circular Linked List
+    │               └── 📁 stackqueue/               # Stack, Queue problems
+    │               └── 📁 hashmapandhashfun/        # HashMap problems
+    │               └── 📁 sorting/                  # Sorting 
+    ├── 📁 leetcode-codebase/                        # DSA LeetCode solutions
+    └── 📁 scenario-based/                           # DSA scenario-based problems
 
 ```
+
+## Learning Milestones
+
+### Week 1 & Week 2: Core Java Programming
+Branch: `core-java-practice`
+
+| Day | Date   | Topic                             | Coverage                              |
+| --- | ------ | --------------------------------  | ------------------------------------- |
+| 1   | 15-Dec | Git & GitHub Setup                | Repository setup, Git workflow        |
+| 2   | 16-Dec | Java Basics                       | Basic syntax, prerequisites           |
+| 3   | 17-Dec | Programming Elements              | Data types, operators, input handling |
+| 4   | 18-Dec | Control Flow                      | Conditions, loops, logical problems   |
+| 5   | 19-Dec | Arrays                            | 1D & 2D arrays, traversal             |
+| 6   | 20-Dec | Methods                           | Method declaration, parameters        |
+| 7   | 22-Dec | Strings                           | String creation, methods              |
+| 8   | 23-Dec | Built-in Functions & Exceptions   | Math, Random, Date-Time, exceptions   |
+| 9   | 24-Dec | LeetCode & Scenario based problem | Basic Java concept and Array          |
+| 10  | 26-Dec | LeetCode & Scenario based problem | Basic Java concept and Array          |
+| 11  | 27-Dec | LeetCode & Scenario based problem | Array and String                      |
+| 12  | 29-Dec | Scenario based problem            | Basic Java concepts                   |
+| 13  | 30-Dec | Scenario based problem            | Basic Java concepts                   |
+| 14  | 31-Dec | Scenario based problem            | Basic Java concepts                   |
+
+
+### Week 2 & Week 3: Java Object-Oriented Programming
+Branch: `java-oops-practice`
+
+| Day | Date   | Topic                          | Coverage                                   |
+| --- | ------ | ------------------------------ | ------------------------------------------ |
+| 9   | 26-Dec | OOP Basics                     | Procedural vs OOP, fundamentals            |
+| 10  | 27-Dec | Constructors & Static Concepts | Constructors, access modifiers, static     |
+| 11  | 29-Dec | this, final, static            | Keywords, instance vs class members        |
+| 12  | 30-Dec | Object Modeling                | Diagrams, relationships, communication     |
+| 13  | 31-Dec | Inheritance & Types            | Types, method overriding, access modifiers |
+| 14  | 01-Jan | Encapsulation & Polymorphism   | Data hiding, polymorphism, interfaces      |
+
+
+### Week 3: Data Structures & Algorithms
+Branch: `dsa-practice`
+
+| Day | Date   | Topic                   | Coverage                               |
+| --- | ------ | ----------------------- | -------------------------------------- |
+| 15  | 02-Jan | DSA Basics & LinkedList | DSA concepts, LinkedList and its types |
+| 16  | 03-Jan | Stack, Queue & HashMap  | Core operations and basic use cases    |
+| 17  | 05-Jan | Sorting Algorithms      | Sorting algorithms & comparison logic  |
+
+
+### Key Concepts Covered 
+
+Core Java (`core-java-practice`)
+- Fundamentals: Variables, data types, operators
+- Control Structures: If-else, loops, switch-case
+- Arrays: Single & multi-dimensional arrays
+- Methods: Parameters, return types, overloading
+- Strings: Manipulation, comparisons, exceptions
+- Problem Solving: LeetCode challenges, real-world scenarios
+
+Object-Oriented Programming (`java-oops-practice`)
+- Classes & Objects: Creating and instantiating objects
+- Encapsulation: Data hiding and access modifiers
+- Constructors: Default, parameterized, overloading
+- Abstraction: Interface-based design patterns
+- Inheritance: Parent and child relations
+- Polymorphism: Method overloading and overriding
+- Problem Solving: LeetCode challenges, real-world scenarios
+
+Data Structures & Algorithms (`dsa-practice`)
+- DSA Fundamentals: Time & space complexity, problem analysis
+- Linked Lists: Singly, doubly, circular linked lists
+- Stacks: LIFO principle, push/pop operations, applications
+- Queues: FIFO principle, enqueue/dequeue, variants
+- HashMaps: Key-value storage, hashing concept, operations
+- Sorting: Basic comparison-based sorting algorithms
 
 
 ### Notes
@@ -104,7 +132,36 @@ BridgeLabz-Training/
 3. Repository is updated continuously as training progresses
 
 
-### 🎓 Learnings & Best Practices
+## Quick Links 
+
+🔗 Branch (`core-java-practice`):
+- [Prerequisites](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-prerequisite) 
+- [Control Flow](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+- [Programming Elements](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+- [Arrays](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays) 
+- [Methods](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods) 
+- [Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings) 
+- [Built-In Functions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras/Built-in-Functions) 
+- [LeetCode Problems](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase)
+- [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+🔗 Branch (`java-oops-practice`):
+- [Classes and Objects](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobjects)
+- [Constructors](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/levelone)
+- [this, final, static, instanceof](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/javakeywords)
+- [Object Modeling & Relations](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
+- [Inheritance & Types](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+- [Encapsulation, Abstraction & Polymorphism](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationpolymorphismabstraction)
+- [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+🔗 Branch (`dsa-practice`):
+ - [Linked Lists](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/linkedlist)
+ - [Stacks and Queues](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stackqueue)
+ - [HashMaps](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/hashmapandhashfun)
+ - [Sorting Algorithms](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/sorting)
+
+
+###  Learnings & Best Practices
 
 - Code Organization: Following industrial standards
 - Naming Conventions: Camel case, Pascal case and meaningful names
