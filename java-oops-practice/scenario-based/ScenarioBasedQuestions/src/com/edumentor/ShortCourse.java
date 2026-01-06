@@ -7,6 +7,7 @@ public class ShortCourse implements ICertifiable {
         this.percentage = percentage;
     }
 
+    //genrate certificate on the basis of percentage he or she gets
     @Override
     public void generateCertificate() {
         if (percentage >= 50) {
