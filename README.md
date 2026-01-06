@@ -1,5 +1,5 @@
 # BridgeLabz-Training
-## Week 3: Git, GitHub & Java Programming Fundamentals
+## Week 3: DSA Fundamentals
 
 ### Day 16: Introduction to Data Structures & Algorithms  
 **Date:** 02-Jan-2026
@@ -42,3 +42,23 @@ BridgeLabz-Training/
 *Code Link*
 - [Day 17 : Stack and Queue](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stackqueue)
 - [DAy 17 : HashMap and hash functions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/hashmapandhashfun)
+
+
+## Week 4: Data Structure & Algorithmns
+
+### Day 18: Sorting Algorithms  
+**Date:** 05-Jan-2026
+
+1. Studied Sorting Algorithms:
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Selection Sort
+- Heap Sort
+- Counting Sort
+2. Understood algorithms and solved problem on each.
+3. Committed and pushed all work.
+
+*Code Link*
+[Day 18 : Sorting Algorithms](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/sorting)
