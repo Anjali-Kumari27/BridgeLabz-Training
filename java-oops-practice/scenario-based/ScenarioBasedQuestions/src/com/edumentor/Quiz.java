@@ -2,6 +2,7 @@ package com.edumentor;
 
 public class Quiz {
 
+	//array for questions
     private String[] questions;          
     private final int[] correctAnswers;  
     private int score;
@@ -13,7 +14,8 @@ public class Quiz {
                 "OOPS stands for Object Oriented Programming System? (1-Yes, 0-No)"
             };
             correctAnswers = new int[]{1, 1};
-        } else {
+        }
+        else {
             questions = new String[]{
                 "JVM converts bytecode to machine code? (1-Yes, 0-No)",
                 "Interface supports multiple inheritance? (1-Yes, 0-No)",
@@ -23,6 +25,7 @@ public class Quiz {
         }
     }
 
+    //method to display questions
     public void showQuestions() {
         for (String q : questions) System.out.println(q);
     }
@@ -34,10 +37,12 @@ public class Quiz {
         }
     }
 
+    //calculate percentage
     public double calculatePercentage() {
         return (score * 100.0) / correctAnswers.length;
     }
 
+    //check score
     public int getScore() {
         return score;
     }
