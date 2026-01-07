@@ -80,3 +80,17 @@ BridgeLabz-Training/
 - [Day 19 : Searching](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/searching)
 - [Day 19 : Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stringbuffer)
 - [Day 19 : File Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/filereader)
+
+
+
+### Day 20: Algorithm Best Practices & Complexity Optimization 
+**Date:** 07-Jan-2026
+
+1. Learned general algorithm best practices for writing efficient and readable code.
+2. Studied time complexity and space complexity analysis.
+3. Understood techniques to optimize performance by reducing time and memory usage.
+4. Applied optimization concepts while solving problems.
+5. Committed and pushed all updates to GitHub.
+
+*Code Link*
+[Day 20 : Run time Analysis](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/runtimeanalysis)
