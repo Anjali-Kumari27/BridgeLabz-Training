@@ -90,12 +90,13 @@ Branch: `java-oops-practice`
 ### Week 3: Data Structures & Algorithms
 Branch: `dsa-practice`
 
-| Day | Date   |      Topic                                |       Coverage                         |
-| --- | ------ | ----------------------------------------- | -------------------------------------- |
-| 15  | 02-Jan | DSA Basics & LinkedList                   | DSA concepts, LinkedList and its types |
-| 16  | 03-Jan | Stack, Queue & HashMap                    | Core operations and basic use cases    |
-| 17  | 05-Jan | Sorting Algorithms                        | Sorting algorithms & comparison logic  |
-| 18  | 06-Jan | Searching, Strings and File Handling      | Linear & binary search , fileReader    |
+| Day | Date   |      Topic                                         |       Coverage                         |
+| --- | ------ | -------------------------------------------------- | -------------------------------------- |
+| 15  | 02-Jan | DSA Basics & LinkedList                            | DSA concepts, LinkedList and its types |
+| 16  | 03-Jan | Stack, Queue & HashMap                             | Core operations and basic use cases    |
+| 17  | 05-Jan | Sorting Algorithms                                 | Sorting algorithms & comparison logic  |
+| 18  | 06-Jan | Searching, Strings and File Handling               | Linear & binary search , fileReader    |
+| 19  | 07-Jan | Algorithm Best Practices & Complexity Optimization | Run time analysis of different algo.   |
 
 
 ### Key Concepts Covered 
@@ -115,7 +116,7 @@ Object-Oriented Programming (`java-oops-practice`)
 - Abstraction: Interface-based design patterns
 - Inheritance: Parent and child relations
 - Polymorphism: Method overloading and overriding
-- Problem Solving: LeetCode challenges, real-world scenarios
+- Problem Solving: Real-world scenario problems
 
 Data Structures & Algorithms (`dsa-practice`)
 - DSA Fundamentals: Time & space complexity, problem analysis
@@ -124,6 +125,8 @@ Data Structures & Algorithms (`dsa-practice`)
 - Queues: FIFO principle, enqueue/dequeue, variants
 - HashMaps: Key-value storage, hashing concept, operations
 - Sorting: Basic comparison-based sorting algorithms
+- Searching: Binary and Linear Search, as well as String Builder and String Buffer
+- Algorithms analysis: Run time and space complexity
 
 
 ### Notes
@@ -163,6 +166,7 @@ Data Structures & Algorithms (`dsa-practice`)
  - [Searching](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/searching)
  - [File Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/filereader)
  - [Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stringbuffer)
+ - [Run time analysis](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/runtimeanalysis)
 
 
 ###  Learnings & Best Practices
