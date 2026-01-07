@@ -62,3 +62,21 @@ BridgeLabz-Training/
 
 *Code Link*
 [Day 18 : Sorting Algorithms](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/sorting)
+
+
+### Day 19: Searching, Strings and File Handling  
+**Date:** 06-Jan-2026
+
+1. Studied core concepts:
+- `StringBuilder` and `StringBuffer`
+- `FileReader` and `InputStreamReader`
+- `Linear Search`
+- `Binary Search`
+2. Understood use cases and differences of each concept.
+3. Solved basic problems to apply the concepts.
+4. Committed and pushed all changes to GitHub.
+
+*Code Link*
+- [Day 19 : Searching](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/searching)
+- [Day 19 : Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stringbuffer)
+- [Day 19 : File Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/filereader)
