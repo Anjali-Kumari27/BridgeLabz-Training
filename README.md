@@ -90,11 +90,12 @@ Branch: `java-oops-practice`
 ### Week 3: Data Structures & Algorithms
 Branch: `dsa-practice`
 
-| Day | Date   | Topic                   | Coverage                               |
-| --- | ------ | ----------------------- | -------------------------------------- |
-| 15  | 02-Jan | DSA Basics & LinkedList | DSA concepts, LinkedList and its types |
-| 16  | 03-Jan | Stack, Queue & HashMap  | Core operations and basic use cases    |
-| 17  | 05-Jan | Sorting Algorithms      | Sorting algorithms & comparison logic  |
+| Day | Date   |      Topic                                |       Coverage                         |
+| --- | ------ | ----------------------------------------- | -------------------------------------- |
+| 15  | 02-Jan | DSA Basics & LinkedList                   | DSA concepts, LinkedList and its types |
+| 16  | 03-Jan | Stack, Queue & HashMap                    | Core operations and basic use cases    |
+| 17  | 05-Jan | Sorting Algorithms                        | Sorting algorithms & comparison logic  |
+| 18  | 06-Jan | Searching, Strings and File Handling      | Linear & binary search , fileReader    |
 
 
 ### Key Concepts Covered 
@@ -159,6 +160,9 @@ Data Structures & Algorithms (`dsa-practice`)
  - [Stacks and Queues](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stackqueue)
  - [HashMaps](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/hashmapandhashfun)
  - [Sorting Algorithms](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/sorting)
+ - [Searching](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/searching)
+ - [File Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/filereader)
+ - [Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stringbuffer)
 
 
 ###  Learnings & Best Practices
