@@ -38,7 +38,7 @@ public class ReadLineByLine {
         Scanner input = new Scanner(System.in);
         
         // Asking the user for the file path/name
-        System.out.print("Enter the name of the file to read (e.g., test.txt): ");
+        System.out.print("Enter the name of the file path to read : ");
         String fileName = input.nextLine();
         
         // Calling the method to read the file content
