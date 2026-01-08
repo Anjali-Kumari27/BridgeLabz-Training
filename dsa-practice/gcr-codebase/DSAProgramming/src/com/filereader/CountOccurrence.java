@@ -51,7 +51,7 @@ public class CountOccurrence {
         Scanner input = new Scanner(System.in);
         
         // Requesting file name and target word from the user
-        System.out.print("Enter the file name to read: ");
+        System.out.print("Enter the file path to read : ");
         String fileName = input.nextLine();
         
         System.out.print("Enter the word to count: ");
