@@ -1,8 +1,11 @@
 package com.artify;
 
+//extends parent class
 public class DigitalArt extends Artwork {
 
     public DigitalArt(String title, String artist, double price) {
+    	
+    	//super keyword to call parent class constructor
         super(title, artist, price, "Digital License");
     }
 
@@ -30,6 +33,7 @@ public class DigitalArt extends Artwork {
         System.out.println("License Terms: " + getLicensingTerms());
     }
 
+    //method to display details of digital art collections
     @Override
     public void displayDetails() {
         System.out.println("Digital Art | " + title +
