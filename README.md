@@ -234,3 +234,17 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 20: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+
+## Day 21 : Scenario-Based Questions
+**Date:** 08-Jan-2026
+
+1. Solved 2 scenario-based problems, which includes problem like
+- MediStore – Pharmacy Inventory & Sales System
+- TourMate – Travel Itinerary Planner
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 20: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
