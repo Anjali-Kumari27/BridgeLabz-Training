@@ -64,6 +64,7 @@ public class UseDigitalArt {
             int choice = input.nextInt();
             input.nextLine(); 
 
+            //user choice
             switch (choice) {
 
                 case 1:
