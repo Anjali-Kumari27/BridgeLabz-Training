@@ -1,7 +1,8 @@
 package com.artify;
 
 public class PrintArt extends Artwork {
-
+	
+    //constructor
 	public PrintArt(String title, String artist, double price) {
 		super(title, artist, price, "Print License");
 	}
@@ -19,17 +20,17 @@ public class PrintArt extends Artwork {
 	@Override
 	public void license() {
 		if (getSelectedLicense().equalsIgnoreCase("Single Print")) {
-	        setLicensingTerms("Only one physical copy allowed.");
-	    } 
-	    else if (getSelectedLicense().equalsIgnoreCase("Commercial Print")) {
-	        setLicensingTerms("Multiple prints allowed for commercial sale.");
-	    }
+			setLicensingTerms("Only one physical copy allowed.");
+		} else if (getSelectedLicense().equalsIgnoreCase("Commercial Print")) {
+			setLicensingTerms("Multiple prints allowed for commercial sale.");
+		}
 
-	    System.out.println("License Type: " + licenseType);
-	    System.out.println("Selected License: " + getSelectedLicense());
-	    System.out.println("License Terms: " + getLicensingTerms());
+		System.out.println("License Type: " + licenseType);
+		System.out.println("Selected License: " + getSelectedLicense());
+		System.out.println("License Terms: " + getLicensingTerms());
 	}
 
+	//method to print details of Print art collections
 	@Override
 	public void displayDetails() {
 		System.out.println("Print Art | " + title + " | Artist: " + artist + " | INR " + price);
