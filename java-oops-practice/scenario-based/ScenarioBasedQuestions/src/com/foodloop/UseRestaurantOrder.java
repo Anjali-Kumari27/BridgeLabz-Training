@@ -48,7 +48,8 @@ public class UseRestaurantOrder {
             System.out.println("1. Veg Menu");
             System.out.println("2. Non-Veg Menu");
             System.out.println("3. Place Order");
-            System.out.println("4. Exit");
+            System.out.println("4. Cancel Order");
+            System.out.println("5. Exit");
 
             System.out.print("Enter your choice: ");
             int choice = input.nextInt();
@@ -84,8 +85,12 @@ public class UseRestaurantOrder {
                 case 3:
                     order.placeOrder();
                     break;
-
+                    
                 case 4:
+                    order.cancelOrder();
+                    break;
+
+                case 5:
                     System.out.println("\nThank you for using FoodLoop!!!!");
                     return;
 
