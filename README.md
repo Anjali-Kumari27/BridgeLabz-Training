@@ -94,3 +94,18 @@ BridgeLabz-Training/
 
 *Code Link*
 [Day 20 : Run time Analysis](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/runtimeanalysis)
+
+
+
+## Day 23 : Scenario-Based Questions
+**Date:** 10-Jan-2026
+
+1. Solved 3 scenario-based problems, which includes problem like
+- BookShelf – Library Organizer (HashMap + Linked List)
+- BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+- AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+*Code Link*
+[Day 20 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
