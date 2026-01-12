@@ -87,6 +87,7 @@ Branch: `java-oops-practice`
 | 15  | 01-Jan | Encapsulation & Polymorphism   | Data hiding, polymorphism, interfaces      |
 | 16  | 02-Jan | Scenario-based problems        | Java OOPs Concept                          |
 | 17  | 03-Jan | Scenario-based problems        | Java OOPs Concept                          |
+| 18  | 05-Jan | Scenario-based problems        | Java OOPs Concept                          |
 
 
 ### Week 3: Data Structures & Algorithms
