@@ -49,7 +49,7 @@ BridgeLabz-Training/
     │               └── 📁 searching/                # Searching
     │               └── 📁 inputstreamreader/        # InputStreamReader
     │               └── 📁 filereader/               # FileReader
-    │               └── 📁 hashmapandhashfun/        # Hash map and Hash functions
+    │               └── 📁 runtimeanalysis/          # Analysis of time and space complexity
     │               └── 📁 stringbuffer/             # StringBuffer
     │               └── 📁 stringbuilder/            # StringBuilder
     ├── 📁 leetcode-codebase/                        # DSA LeetCode solutions
@@ -95,6 +95,7 @@ Branch: `java-oops-practice`
 | 17  | 03-Jan | Scenario-based problems        | Java OOPs Concept                          |
 | 18  | 05-Jan | Scenario-based problems        | Java OOPs Concept                          |
 | 19  | 06-Jan | Scenario-based problems        | Java OOPs Concept                          |
+| 20  | 07-Jan | Scenario-based problems        | Java OOPs Concept                          |
 
 
 ### Week 3: Data Structures & Algorithms
