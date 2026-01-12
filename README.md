@@ -45,7 +45,13 @@ BridgeLabz-Training/
     │               ├── 📁 linkedlist/               # Singly, Doubly, Circular Linked List
     │               └── 📁 stackqueue/               # Stack, Queue problems
     │               └── 📁 hashmapandhashfun/        # HashMap problems
-    │               └── 📁 sorting/                  # Sorting 
+    │               └── 📁 sorting/                  # Sorting
+    │               └── 📁 searching/                # Searching
+    │               └── 📁 inputstreamreader/        # InputStreamReader
+    │               └── 📁 filereader/               # FileReader
+    │               └── 📁 hashmapandhashfun/        # Hash map and Hash functions
+    │               └── 📁 stringbuffer/             # StringBuffer
+    │               └── 📁 stringbuilder/            # StringBuilder
     ├── 📁 leetcode-codebase/                        # DSA LeetCode solutions
     └── 📁 scenario-based/                           # DSA scenario-based problems
 
@@ -88,6 +94,7 @@ Branch: `java-oops-practice`
 | 16  | 02-Jan | Scenario-based problems        | Java OOPs Concept                          |
 | 17  | 03-Jan | Scenario-based problems        | Java OOPs Concept                          |
 | 18  | 05-Jan | Scenario-based problems        | Java OOPs Concept                          |
+| 19  | 06-Jan | Scenario-based problems        | Java OOPs Concept                          |
 
 
 ### Week 3: Data Structures & Algorithms
