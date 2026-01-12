@@ -79,13 +79,14 @@ Branch: `java-oops-practice`
 
 | Day | Date   | Topic                          | Coverage                                   |
 | --- | ------ | ------------------------------ | ------------------------------------------ |
-| 10   | 26-Dec | OOP Basics                     | Procedural vs OOP, fundamentals            |
+| 10  | 26-Dec | OOP Basics                     | Procedural vs OOP, fundamentals            |
 | 11  | 27-Dec | Constructors & Static Concepts | Constructors, access modifiers, static     |
 | 12  | 29-Dec | this, final, static            | Keywords, instance vs class members        |
 | 13  | 30-Dec | Object Modeling                | Diagrams, relationships, communication     |
 | 14  | 31-Dec | Inheritance & Types            | Types, method overriding, access modifiers |
 | 15  | 01-Jan | Encapsulation & Polymorphism   | Data hiding, polymorphism, interfaces      |
 | 16  | 02-Jan | Scenario-based problems        | Java OOPs Concept                          |
+| 17  | 03-Jan | Scenario-based problems        | Java OOPs Concept                          |
 
 
 ### Week 3: Data Structures & Algorithms
