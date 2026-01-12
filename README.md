@@ -105,11 +105,12 @@ Branch: `dsa-practice`
 
 | Day | Date   |      Topic                                         |       Coverage                         |
 | --- | ------ | -------------------------------------------------- | -------------------------------------- |
-| 15  | 02-Jan | DSA Basics & LinkedList                            | DSA concepts, LinkedList and its types |
-| 16  | 03-Jan | Stack, Queue & HashMap                             | Core operations and basic use cases    |
-| 17  | 05-Jan | Sorting Algorithms                                 | Sorting algorithms & comparison logic  |
-| 18  | 06-Jan | Searching, Strings and File Handling               | Linear & binary search , fileReader    |
-| 19  | 07-Jan | Algorithm Best Practices & Complexity Optimization | Run time analysis of different algo.   |
+| 16  | 02-Jan | DSA Basics & LinkedList                            | DSA concepts, LinkedList and its types |
+| 17  | 03-Jan | Stack, Queue & HashMap                             | Core operations and basic use cases    |
+| 18  | 05-Jan | Sorting Algorithms                                 | Sorting algorithms & comparison logic  |
+| 19  | 06-Jan | Searching, Strings and File Handling               | Linear & binary search , fileReader    |
+| 20  | 07-Jan | Algorithm Best Practices & Complexity Optimization | Run time analysis of different algo.   |
+| 23  | 10-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 
 
 ### Key Concepts Covered 
