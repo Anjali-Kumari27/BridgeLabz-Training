@@ -108,4 +108,21 @@ BridgeLabz-Training/
 3. Committed and pushed all solutions.
 
 *Code Link*
-[Day 20 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+[Day 23 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
+## Week 5: DSA Scenario-Based Problems
+
+## Day 24 : Scenario-Based Questions
+**Date:** 12-Jan-2026
+
+1. Solved 4 scenario-based problems, which includes problem like
+- CallCenter – Customer Queue Manager (Queue + HashMap)
+- TrainCompanion – Compartment Navigation System (Doubly Linked List)
+- TextEditor – Undo/Redo Functionality (Stack)
+- TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+*Code Link*
+[Day 24 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
