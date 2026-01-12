@@ -111,7 +111,7 @@ Branch: `dsa-practice`
 | 19  | 06-Jan | Searching, Strings and File Handling               | Linear & binary search , fileReader    |
 | 20  | 07-Jan | Algorithm Best Practices & Complexity Optimization | Run time analysis of different algo.   |
 | 23  | 10-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
-| 23  | 10-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
+| 24  | 12-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 
 
 ### Key Concepts Covered 
@@ -182,6 +182,7 @@ Data Structures & Algorithms (`dsa-practice`)
  - [File Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/filereader)
  - [Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stringbuffer)
  - [Run time analysis](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/runtimeanalysis)
+ - [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
 
 
 ###  Learnings & Best Practices
