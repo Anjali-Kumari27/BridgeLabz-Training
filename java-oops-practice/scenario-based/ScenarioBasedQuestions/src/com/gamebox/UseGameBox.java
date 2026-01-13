@@ -23,21 +23,24 @@ public class UseGameBox {
 
         Scanner input = new Scanner(System.in);
 
-        // Player name input
+        // Asking player name from the user
         System.out.print("Enter Player Name: ");
         String name = input.nextLine();
         User user = new User(name);
 
-        // Available games
+        // Games that are available 
         Game[] games = new Game[7];
-        games[0] = new ArcadeGame("Temple Dash", 0, 4.3);     // FREE
+        
+        //free game
+        games[0] = new ArcadeGame("Temple Dash", 0, 4.3);
+        
+        //paid games
         games[1] = new ArcadeGame("Subway Run", 500, 4.5);
         games[2] = new StrategyGame("War Planner", 800, 4.8);
         games[3] = new StrategyGame("Civilization VI", 1300, 4.8);
         games[4] = new StrategyGame("League of Legends", 1450, 4.9);
         games[5] = new ArcadeGame("Frogger", 650, 4.1);
         games[6] = new ArcadeGame("Space Invaders", 800, 4.7);
-
 
         int choice;
 
@@ -54,6 +57,7 @@ public class UseGameBox {
             System.out.println("7. Exit");
             System.out.print("Enter your choice: ");
 
+            //asking choice
             choice = input.nextInt();
 
             if (choice >= 2 && choice <= 4) {
