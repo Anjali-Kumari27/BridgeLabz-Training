@@ -263,3 +263,19 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 22: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+## Week 5 : Solving Scenario-based question
+
+## Day 24 : Scenario-Based Questions
+**Date:** 12-Jan-2026
+
+1. Solved 3 scenario-based problems, which includes problem like
+- BudgetWise – Personal Finance Tracker
+- HomeNest – Smart Home Device Manager
+- GameBox – Mobile Game Distribution Platform
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 24: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
