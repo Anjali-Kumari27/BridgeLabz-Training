@@ -1,6 +1,5 @@
 package com.gamebox;
 
-//Simple leaderboard record
 public class LeaderboardEntry {
 
  String playerName;
