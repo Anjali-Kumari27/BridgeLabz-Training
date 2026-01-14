@@ -113,6 +113,7 @@ Branch: `dsa-practice`
 | 20  | 07-Jan | Algorithm Best Practices & Complexity Optimization | Run time analysis of different algo.   |
 | 23  | 10-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 | 24  | 12-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
+| 25  | 13-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 
 
 ### Key Concepts Covered 
