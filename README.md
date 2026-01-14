@@ -279,3 +279,17 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 24: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+
+## Day 25 : Scenario-Based Questions
+**Date:** 13-Jan-2026
+
+1. Solved 2 scenario-based problems, which includes problem like
+- PayXpress – Utility Bill Payment System
+- Bird Sanctuary system
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 25: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
