@@ -98,6 +98,7 @@ Branch: `java-oops-practice`
 | 20  | 07-Jan | Scenario-based problems        | Java OOPs Concept                          |
 | 21  | 08-Jan | Scenario-based problems        | Java OOPs Concept                          |
 | 22  | 09-Jan | Scenario-based problems        | Java OOPs Concept                          |
+| 24  | 12-Jan | Scenario-based problems        | Java OOPs Concept                          |
 
 
 ### Week 3: Data Structures & Algorithms
