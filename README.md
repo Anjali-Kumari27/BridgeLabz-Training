@@ -52,6 +52,7 @@ BridgeLabz-Training/
     │               └── 📁 runtimeanalysis/          # Analysis of time and space complexity
     │               └── 📁 stringbuffer/             # StringBuffer
     │               └── 📁 stringbuilder/            # StringBuilder
+    │               └── 📁 tree/                     # Trees
     ├── 📁 leetcode-codebase/                        # DSA LeetCode solutions
     └── 📁 scenario-based/                           # DSA scenario-based problems
 
@@ -115,6 +116,7 @@ Branch: `dsa-practice`
 | 23  | 10-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 | 24  | 12-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 | 25  | 13-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
+| 25  | 13-Jan | Trees                                              | Binary Search Tree, Tree traversal     |
 
 
 ### Key Concepts Covered 
@@ -186,6 +188,7 @@ Data Structures & Algorithms (`dsa-practice`)
  - [Strings](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/stringbuffer)
  - [Run time analysis](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/runtimeanalysis)
  - [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+ - [Tree](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/tree)
 
 
 ###  Learnings & Best Practices
