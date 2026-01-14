@@ -141,3 +141,32 @@ BridgeLabz-Training/
 
 *Code Link*
 [Day 25 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
+
+### Day 25: Trees & Binary Search Trees 
+**Date:** 13-Jan-2026
+
+1. Studied Trees as a hierarchical, non-linear data structure.
+2. Learned basic tree terminologies:
+- `Root`, `parent`, `child`, `sibling`, `leaf`, `internal node`
+- `Height`, `depth`, `level`, `degree`, `subtree`
+3. Explored different types of trees:
+- `Binary tree`
+- Full, complete, perfect, and balanced binary trees
+4. Learned tree traversal techniques:
+- `Inorder`
+- `Preorder`
+- `Postorder`
+5. Studied Binary Search Trees (BST):
+- Properties and structure
+- Search, insertion, and deletion operations
+6. Understood time complexity of BST operations in best, average, and worst cases.
+7. Solved practice problems based on:
+- Tree traversal
+- BST validation and operations
+- Real-world applications of trees
+8. Committed and pushed all updates to GitHub.
+  
+*Code Link*
+[Day 25 : Tree ](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/tree)
