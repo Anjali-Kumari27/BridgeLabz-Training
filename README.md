@@ -126,3 +126,18 @@ BridgeLabz-Training/
 
 *Code Link*
 [Day 24 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
+
+## Day 25 : Scenario-Based Questions
+**Date:** 13-Jan-2026
+
+1. Solved 3 scenario-based problems, which includes problem like
+- SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+- ParcelTracker – Delivery Chain Management (Singly Linked List)
+- ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+*Code Link*
+[Day 25 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
