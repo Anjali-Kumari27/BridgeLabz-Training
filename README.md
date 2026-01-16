@@ -117,6 +117,7 @@ Branch: `dsa-practice`
 | 24  | 12-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 | 25  | 13-Jan | Scenario-Based Problems                            | Using DSA Concepts                     |
 | 25  | 13-Jan | Trees                                              | Binary Search Tree, Tree traversal     |
+| 26  | 15-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
 
 
 ### Key Concepts Covered 
