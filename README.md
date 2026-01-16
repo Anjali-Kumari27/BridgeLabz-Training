@@ -170,3 +170,20 @@ BridgeLabz-Training/
   
 *Code Link*
 [Day 25 : Tree ](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/tree)
+
+
+
+## Day 26 : Scenario-Based Questions
+**Date:** 15-Jan-2026
+
+1. Solved 5 scenario-based problems on *Sorting*, which includes problem like
+- HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+- SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+- ZipZipMart – Daily Sales Summary Report (Merge Sort)
+- ExamCell – Student Rank Generator (Merge Sort)
+- EventManager – Ticket Price Optimizer (Quick Sort)
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+*Code Link*
+[Day 26 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
