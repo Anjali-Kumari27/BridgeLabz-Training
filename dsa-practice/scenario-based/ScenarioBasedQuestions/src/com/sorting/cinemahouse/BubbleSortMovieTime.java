@@ -17,60 +17,59 @@ import java.util.Scanner;
 // CinemaHouse Movie Time Sorting using Bubble Sort
 public class BubbleSortMovieTime {
 
-    // Method to sort movie show timings using Bubble Sort
-    static void bubbleSort(int[] times) {
+	// Method to sort movie show timings using Bubble Sort
+	public static void bubbleSort(int[] times) {
 
-        int n = times.length;
+		int n = times.length;
 
-        for (int i = 0; i < n - 1; i++) {
+		for (int i = 0; i < n - 1; i++) {
 
-            for (int j = 0; j < n - 1 - i; j++) {
+			for (int j = 0; j < n - 1 - i; j++) {
 
-                // Compare adjacent show times
-                if (times[j] > times[j + 1]) {
+				// Compare adjacent show times
+				if (times[j] > times[j + 1]) {
 
-                    // Swap timings
-                    int temp = times[j];
-                    times[j] = times[j + 1];
-                    times[j + 1] = temp;
-                }
-            }
-        }
-    }
+					// Swap timings
+					int temp = times[j];
+					times[j] = times[j + 1];
+					times[j + 1] = temp;
+				}
+			}
+		}
+	}
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 
-        System.out.println("\n=================================================");
-        System.out.println("        CinemaHouse - Movie Time Schedule        ");
-        System.out.println("=================================================");
+		System.out.println("\n=================================================");
+		System.out.println("        CinemaHouse - Movie Time Schedule        ");
+		System.out.println("=================================================");
 
-        // Input number of shows
-        System.out.print("Enter number of movie shows: ");
-        int n = input.nextInt();
+		// Input number of shows
+		System.out.print("Enter number of movie shows: ");
+		int n = input.nextInt();
 
-        int[] times = new int[n];
+		int[] times = new int[n];
 
-        // Input show timings
-        System.out.println("Enter movie show times (24-hour format):");
-        for (int i = 0; i < n; i++) {
-            System.out.print("Show " + (i + 1) + " Time: ");
-            times[i] = input.nextInt();
-        }
+		// Input show timings
+		System.out.println("Enter movie show times (24-hour format):");
+		for (int i = 0; i < n; i++) {
+			System.out.print("Show " + (i + 1) + " Time: ");
+			times[i] = input.nextInt();
+		}
 
-        // Sort movie times
-        bubbleSort(times);
+		// Sort movie times
+		bubbleSort(times);
 
-        // Display sorted showtimes
-        System.out.println("\n------------------------------------------------");
-        System.out.println("        Sorted Movie Show Times                 ");
-        System.out.println("------------------------------------------------");
+		// Display sorted showtimes
+		System.out.println("\n------------------------------------------------");
+		System.out.println("        Sorted Movie Show Times                 ");
+		System.out.println("------------------------------------------------");
 
-        for (int t : times) {
-            System.out.println(t);
-        }
+		for (int t : times) {
+			System.out.println(t);
+		}
 
-        input.close();
-    }
+		input.close();
+	}
 }
-
