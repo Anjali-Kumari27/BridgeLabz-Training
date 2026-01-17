@@ -208,9 +208,11 @@ BridgeLabz-Training/
 ## Day 28 : Scenario-Based Questions
 **Date:** 17-Jan-2026
 
-1. Solved 2 scenario-based problems on *Sorting*, which includes problem like
+1. Solved 4 scenario-based problems on *Sorting*, which includes problem like
 - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
 - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+- IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+-  SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
 2. Focused on logical thinking and real-world problem solving.
 3. Committed and pushed all solutions.
 
