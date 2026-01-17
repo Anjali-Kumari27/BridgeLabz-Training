@@ -17,90 +17,91 @@ import java.util.Scanner;
 // ExamCell Student Rank Generator using Merge Sort
 public class MergeSortExamCell {
 
-    // Merge Sort method
-    static void mergeSort(int[] scores, int left, int right) {
-        if (left < right) {
+	// Merge Sort method
+	public static void mergeSort(int[] scores, int left, int right) {
+		if (left < right) {
 
-            int mid = (left + right) / 2;
+			int mid = (left + right) / 2;
 
-            // Sort left half
-            mergeSort(scores, left, mid);
+			// Sort left half
+			mergeSort(scores, left, mid);
 
-            // Sort right half
-            mergeSort(scores, mid + 1, right);
+			// Sort right half
+			mergeSort(scores, mid + 1, right);
 
-            // Merge both halves
-            merge(scores, left, mid, right);
-        }
-    }
+			// Merge both halves
+			merge(scores, left, mid, right);
+		}
+	}
 
-    // Merge two sorted sub-arrays
-    static void merge(int[] scores, int left, int mid, int right) {
+	// Merge two sorted sub-arrays
+	public static void merge(int[] scores, int left, int mid, int right) {
 
-        int size = right - left + 1;
-        int[] temp = new int[size];
+		int size = right - left + 1;
+		int[] temp = new int[size];
 
-        int i = left;      // left sub-array
-        int j = mid + 1;   // right sub-array
-        int k = 0;         // temp index
+		int i = left; // left sub-array
+		int j = mid + 1; // right sub-array
+		int k = 0; // temp index
 
-        // Compare and merge (stable)
-        while (i <= mid && j <= right) {
-            if (scores[i] >= scores[j]) { // Higher score = better rank
-                temp[k++] = scores[i++];
-            } else {
-                temp[k++] = scores[j++];
-            }
-        }
+		// Compare and merge
+		while (i <= mid && j <= right) {
+			if (scores[i] >= scores[j]) { // Higher score = top rank
+				temp[k++] = scores[i++];
+			} else {
+				temp[k++] = scores[j++];
+			}
+		}
 
-        // Copy remaining elements
-        while (i <= mid) {
-            temp[k++] = scores[i++];
-        }
+		// Copy remaining elements
+		while (i <= mid) {
+			temp[k++] = scores[i++];
+		}
 
-        while (j <= right) {
-            temp[k++] = scores[j++];
-        }
+		while (j <= right) {
+			temp[k++] = scores[j++];
+		}
 
-        // Copy back to original array
-        for (int x = 0; x < size; x++) {
-            scores[left + x] = temp[x];
-        }
-    }
+		// Copy back to original array
+		for (int x = 0; x < size; x++) {
+			scores[left + x] = temp[x];
+		}
+	}
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 
-        // Header
-        System.out.println("\n=================================================");
-        System.out.println("        ExamCell - Student Rank Generator         ");
-        System.out.println("=================================================");
+		System.out.println("\n======================================================");
+		System.out.println("           ExamCell - Student Rank Generator            ");
+		System.out.println("=======================================================\n");
 
-        // Input number of students
-        System.out.print("Enter total number of students: ");
-        int n = input.nextInt();
+		// Input number of students
+		System.out.print("Enter total number of students: ");
+		int n = input.nextInt();
 
-        int[] scores = new int[n];
+		int[] scores = new int[n];
 
-        // Input student scores
-        System.out.println("Enter student scores:");
-        for (int i = 0; i < n; i++) {
-            System.out.print("Student " + (i + 1) + " Score: ");
-            scores[i] = input.nextInt();
-        }
+		// Input student scores
+		System.out.println("\n*********************");
+		System.out.println("Enter student scores:");
+		System.out.println("*********************\n");
+		for (int i = 0; i < n; i++) {
+			System.out.print("Student " + (i + 1) + " Score: ");
+			scores[i] = input.nextInt();
+		}
 
-        // Sort scores (highest first)
-        mergeSort(scores, 0, n - 1);
+		// Sort scores (highest first)
+		mergeSort(scores, 0, n - 1);
 
-        // Display rank list
-        System.out.println("\n------------------------------------------------");
-        System.out.println("        State-Level Rank List                    ");
-        System.out.println("------------------------------------------------");
+		// Display rank list
+		System.out.println("\n------------------------------------------------");
+		System.out.println("        State-Level Rank List                    ");
+		System.out.println("------------------------------------------------");
 
-        for (int i = 0; i < n; i++) {
-            System.out.println("Rank " + (i + 1) + " : " + scores[i]);
-        }
+		for (int i = 0; i < n; i++) {
+			System.out.println("Rank " + (i + 1) + " : " + scores[i] + " Marks");
+		}
 
-        input.close();
-    }
+		input.close();
+	}
 }
