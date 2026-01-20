@@ -218,3 +218,19 @@ BridgeLabz-Training/
 
 *Code Link*
 [Day 28 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
+## Week 6: Continuing DSA Scenario-Based Problems
+
+## Day 29 : Scenario-Based Questions
+**Date:** 19-Jan-2026
+
+1. Solved 3 scenario-based problems on *Sorting*, which includes problem like
+- FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+- FlashDealz – Product Sorting by Discount (Quick Sort)
+- EduResults – Rank Sheet Generator (Merge Sort)
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+*Code Link*
+[Day 29 : Scenario based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
