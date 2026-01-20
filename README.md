@@ -120,6 +120,8 @@ Branch: `dsa-practice`
 | 26  | 15-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
 | 27  | 16-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
 | 28  | 17-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
+| 29  | 19-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
+
 
 
 ### Key Concepts Covered 
