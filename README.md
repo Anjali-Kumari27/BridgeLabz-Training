@@ -306,3 +306,17 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 28: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+## Week 6 : Continuation of Solving Scenario-based question
+
+## Day 29 : Scenario-Based Questions
+**Date:** 19-Jan-2026
+
+1. Solved 1 scenario-based problems, which includes problem like
+- Address Book System
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed the solution.
+
+🔗 *Code Link*
+[Day 29: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
