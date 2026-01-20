@@ -293,3 +293,16 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 25: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
+
+
+## Day 28 : Scenario-Based Questions
+**Date:** 17-Jan-2026
+
+1. Solved 2 scenario-based problems, which includes problem like
+- GeoMeasure Solutions
+- Bag-n-Ball Organizer
+2. Focused on logical thinking and real-world problem solving.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 28: Scenario-based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based)
