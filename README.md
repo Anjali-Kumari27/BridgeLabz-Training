@@ -104,7 +104,7 @@ Branch: `java-oops-practice`
 | 28  | 17-Jan | Scenario-based problems        | Java OOPs Concept                          |
 
 
-### Week 3: Data Structures & Algorithms
+### Week 3,4 & 5: Data Structures & Algorithms
 Branch: `dsa-practice`
 
 | Day | Date   |      Topic                                         |       Coverage                         |
@@ -122,6 +122,14 @@ Branch: `dsa-practice`
 | 27  | 16-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
 | 28  | 17-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
 | 29  | 19-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
+
+
+### Week 4 & 5: Collection Framework
+Branch: `java-collections-practice`
+
+| Day | Date   |      Topic                                         |       Coverage                         |
+| --- | ------ | -------------------------------------------------- | -------------------------------------- |
+| 27  | 16-Jan | Fundamentals of Generics                           | Generic classes, methods, type parameters, bounded types and wildcards  |
 
 
 
@@ -154,7 +162,10 @@ Data Structures & Algorithms (`dsa-practice`)
 - Searching: Binary and Linear Search, as well as String Builder and String Buffer
 - Algorithms analysis: Run time and space complexity
 
+Collection Framework (`java-collections-practice`)
+- Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
 
+  
 ### Notes
 
 1. Each branch contains its own detailed README with day-wise learning logs
@@ -196,7 +207,10 @@ Data Structures & Algorithms (`dsa-practice`)
  - [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
  - [Tree](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAProgramming/src/com/tree)
 
+🔗 Branch (`java-collections-practice`):
+- [Generics](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/generics)
 
+  
 ###  Learnings & Best Practices
 
 - Code Organization: Following industrial standards
