@@ -76,3 +76,31 @@
 
 🔗 *Code Link*
 [Day 28 : Fundamentals Of Java Collections](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/variousinterfaces)
+
+
+
+## Week 5: Practicing and Learning about Java Collection Framework
+
+### Day 28: Java Streams
+**Date:** 19-Jan-2026
+
+1. Studied Java I/O Streams architecture and stream-based data handling.
+2. Covered Byte Streams and Character Streams for file operations.
+3. Learned and implemented:
+- `FileInputStream`, `FileOutputStream`
+- `FileReader`, `FileWriter`
+- `BufferedInputStream`, `BufferedOutputStream`
+- `BufferedReader`, `BufferedWriter`
+4. Understood Object Streams:
+- `ObjectInputStream`, `ObjectOutputStream`
+- `Serialization` and `deserialization`
+5. Practiced in-memory streams:
+- `ByteArrayInputStream`, `ByteArrayOutputStream`
+6. Used bridge streams:
+- `InputStreamReader`, `OutputStreamWriter`
+7. Applied try-with-resources, buffering, and performance best practices.
+8. Solved practical problems including `file copy`, `serialization`, and efficient large-file reading.
+9. Committed and pushed all work.
+
+🔗 *Code Link*
+[Day 29 : Java Streams](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/streams)
