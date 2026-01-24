@@ -1,5 +1,5 @@
 # BridgeLabz-Training
-## Week 4: Collection Framework
+## Week 5: Collection Framework
 
 ### Day 27: Fundamentals of Java Generics 
 **Date:** 16-Jan-2026
@@ -38,3 +38,41 @@
 
 🔗 *Code Link*
 [Day 27 : Java Generics](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/generics)
+
+
+
+### Day 28: Java Collection Framework 
+**Date:** 17-Jan-2026
+1. Studied Java Collections Framework architecture and hierarchy.
+2. Understood the role of Collection and Map interfaces.
+3. Learned List Interface and its implementations:
+ - ArrayList
+ - LinkedList
+ - Vector
+4. Performed common List operations:
+- `Add`, `remove`, `update`, `search`
+5. Iteration using for-each, Iterator, and ListIterator
+6. Learned Set Interface and its implementations:
+ - HashSet
+ - LinkedHashSet
+ - TreeSet
+7. Understood uniqueness, ordering, and sorting behavior in Sets.
+8. Learned Map Interface and its implementations:
+ - HashMap
+ - LinkedHashMap
+ - TreeMap
+9. Performed key-value operations:
+ - Insertion, deletion, retrieval
+10. Iteration using entrySet(), keySet(), and values()
+11. Learned Queue Interface and its implementations:
+ - PriorityQueue
+ - ArrayDeque
+12. Studied queue operations:
+ - Enqueue, dequeue, peek & poll
+13. Understood FIFO behavior and priority-based processing.
+14. Understood internal working, use cases, and performance considerations.
+15. Practiced real-time examples for List, Set, Queue and Map.
+16. Committed and pushed all work.
+
+🔗 *Code Link*
+[Day 28 : Fundamentals Of Java Collections](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/variousinterfaces)
