@@ -130,6 +130,7 @@ Branch: `java-collections-practice`
 | Day | Date   |      Topic                                         |       Coverage                         |
 | --- | ------ | -------------------------------------------------- | -------------------------------------- |
 | 27  | 16-Jan | Fundamentals of Generics                           | Generic classes, methods, type parameters, bounded types and wildcards  |
+| 28  | 17-Jan | Fundamentals of Collection Framework               | Collection hierarchy, List, Set, Queue, Map, implementations      |
 
 
 
@@ -209,6 +210,7 @@ Collection Framework (`java-collections-practice`)
 
 🔗 Branch (`java-collections-practice`):
 - [Generics](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/generics)
+- [Fundamentals of Collection Framework](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/variousinterfaces)
 
   
 ###  Learnings & Best Practices
