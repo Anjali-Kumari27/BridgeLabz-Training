@@ -1,5 +1,11 @@
 package com.regex.validatecreditcard;
 
+/*
+ * Validate a Credit Card Number (Visa, MasterCard, etc.)
+A Visa card number starts with 4 and has 16 digits.
+A MasterCard starts with 5 and has 16 digits.
+
+ */
 import java.util.Scanner;
 import java.util.regex.*;
 public class CreditCardNumber {
