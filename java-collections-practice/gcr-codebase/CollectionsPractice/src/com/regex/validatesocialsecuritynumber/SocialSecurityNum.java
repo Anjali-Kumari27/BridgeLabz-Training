@@ -1,5 +1,14 @@
 package com.regex.validatesocialsecuritynumber;
 
+/*
+ * Validate a Social Security Number (SSN)
+🔹 Example Input:
+"My SSN is 123-45-6789."
+🔹 Expected Output:
+"123-45-6789" is valid
+❌ "123456789" is invalid
+
+ */
 import java.util.Scanner;
 import java.util.regex.*;
 public class SocialSecurityNum {
