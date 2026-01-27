@@ -131,8 +131,8 @@ Branch: `java-collections-practice`
 | --- | ------ | -------------------------------------------------- | -------------------------------------- |
 | 27  | 16-Jan | Fundamentals of Generics                           | Generic classes, methods, type parameters, bounded types and wildcards  |
 | 28  | 17-Jan | Fundamentals of Collection Framework               | Collection hierarchy, List, Set, Queue, Map, implementations      |
-| 29  | 19-Jan | Java Streams                                       | Byte, character, buffered, object & bridge streams
-                     |
+| 29  | 19-Jan | Java Streams                                       | Byte, character, buffered, object & bridge streams                          |
+| 30  | 20-Jan | Exception Handling                                 | Checked, unchecked, custom exceptions, try(resources) & nested             |
 
 
 
@@ -169,6 +169,7 @@ Collection Framework (`java-collections-practice`)
 - Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
 - Collections Framework Overview: Purpose and benefits of Java Collections Framework with their implementation.
 - Java IO Streams: Efficient File handling, Byte & character streams, buffering, and object serialization.
+- Exception Handling: `Checked` vs `unchecked` exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, `custom exceptions`, try-with-resources
 
   
 ### Notes
@@ -215,6 +216,8 @@ Collection Framework (`java-collections-practice`)
 🔗 Branch (`java-collections-practice`):
 - [Generics](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/generics)
 - [Fundamentals of Collection Framework](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/variousinterfaces)
+- [Java IO Streams](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/streams)
+- [Exception Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/exceptionhandling)
 
   
 ###  Learnings & Best Practices
