@@ -177,6 +177,13 @@ Branch: `java-collections-practice`
 | 34  | 24-Jan | Scenario Based Problems                            | Java Collection Framework Concepts                                          |
 
 
+### Week 6: Java I/O Streams
+Branch: `java-iostreams-practice`
+
+| Day | Date   |      Topic                                |       Coverage                         |
+| --- | ------ | ------------------------------------------| -------------------------------------- |
+| 33  | 23-Jan | CSV Data Handling                         | Read/write CSV, validation, large-file processing, dataset merging  |
+
 
 ### Key Concepts Covered 
 
@@ -217,6 +224,9 @@ Collection Framework (`java-collections-practice`)
 - Annotation: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage.
 - Reflection: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing.
 - Problem Solving: Real-world scenario problems
+
+Java I/O Streams (`java-iostreams-practice`)
+- CSV Data Handling: Reading/writing CSV files, OpenCSV usage, data validation, object mapping, and large-file handling.
 
   
 ### Notes
@@ -271,7 +281,10 @@ Collection Framework (`java-collections-practice`)
 - [Reflection](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/reflection)
 - [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/ScenarioBasedQuestions)
 
-  
+🔗 Branch (`core-java-practice`):
+- [CSV](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsPractice/src/com/csv)
+
+
 ###  Learnings & Best Practices
 
 - Code Organization: Following industrial standards
