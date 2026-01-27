@@ -163,6 +163,7 @@ Branch: `java-collections-practice`
 | 30  | 20-Jan | Exception Handling                                 | Checked, unchecked, custom exceptions, try(resources) & nested             |
 | 31  | 21-Jan | Regex & JUnit Testing                              | Pattern matching, validations, groups, unit testing, assertions           |
 | 32  | 22-Jan | Annotations & Reflection                           | Built-in & custom annotations, runtime inspection, proxies              |
+| 33  | 23-Jan | Scenario Based Problems                            | Java Collection Framework Concepts                                          |
 
 
 
@@ -194,6 +195,7 @@ Data Structures & Algorithms (`dsa-practice`)
 - Sorting: Basic comparison-based sorting algorithms
 - Searching: Binary and Linear Search, as well as String Builder and String Buffer
 - Algorithms analysis: Run time and space complexity
+- Problem Solving: Real-world scenario problems
 
 Collection Framework (`java-collections-practice`)
 - Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
@@ -203,6 +205,7 @@ Collection Framework (`java-collections-practice`)
 - Regex and JUnit: Pattern matching, validation rules, groups, quantifiers, unit tests, assertions, test lifecycle.
 - Annotation: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage.
 - Reflection: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing.
+- Problem Solving: Real-world scenario problems
 
   
 ### Notes
@@ -255,6 +258,7 @@ Collection Framework (`java-collections-practice`)
 - [JUnit](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/junit)
 - [Annotations](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/annotations)
 - [Reflection](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/reflection)
+- [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/ScenarioBasedQuestions)
 
   
 ###  Learnings & Best Practices
