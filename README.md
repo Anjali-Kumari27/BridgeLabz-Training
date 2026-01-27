@@ -23,8 +23,14 @@
 |   |               │     │── additionalquestion/
 |   |               └── streams/
 |   |               └── exceptionhandling/
+|   |               └── regex/
+|   |               └── annotations/
+|   |               └── reflection/
+|   |               └── junit/
+|   |                  └──│── com/
+|   |                  └──│── tests/
 |   |
-│ 	└── scenario-based-codebase/
+│ 	└── scenario-based/
 └── README.md
 ```
 
