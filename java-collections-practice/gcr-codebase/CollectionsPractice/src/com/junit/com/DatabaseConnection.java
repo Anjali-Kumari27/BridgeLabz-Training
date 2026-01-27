@@ -1,4 +1,4 @@
-package com.junit.testbeforeaftereach;
+package com.junit.com;
 
 public class DatabaseConnection {
 	//to check connection status
