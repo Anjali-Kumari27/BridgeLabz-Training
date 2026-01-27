@@ -1,6 +1,9 @@
-package com.junit.filehandlingtest;
+package com.junit.tests;
 
 import org.junit.jupiter.api.Test;
+
+import com.junit.com.FileProcessor;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.File;
