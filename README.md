@@ -79,9 +79,9 @@
 
 
 
-## Week 5: Practicing and Learning about Java Collection Framework
+## Week 6: Practicing and Learning about Java Collection Framework
 
-### Day 28: Java Streams
+### Day 29: Java Streams
 **Date:** 19-Jan-2026
 
 1. Studied Java I/O Streams architecture and stream-based data handling.
@@ -104,3 +104,22 @@
 
 🔗 *Code Link*
 [Day 29 : Java Streams](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/streams)
+
+
+
+### Day 30: Exception Handling
+**Date:** 20-Jan-2026
+
+1. Studied Java exception handling and exception hierarchy.
+2. Differentiated between checked and unchecked exceptions.
+3. Implemented `try`, `catch`, `finally`, and multiple catch blocks.
+4. Practiced handling common runtime exceptions.
+5. Used nested `try-catch` for granular error handling.
+6. Applied `throw` and `throws` for `exception` creation and propagation.
+7. Designed and implemented custom exceptions for business rules.
+8. Used try-with-resources for automatic resource management.
+9. Solved scenario-based exception handling problems.
+10. Committed and pushed all work.
+
+🔗 *Code Link*
+[Day 30 : Exception Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/exceptionhandling)
