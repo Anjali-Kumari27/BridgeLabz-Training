@@ -184,3 +184,19 @@
 🔗 *Code Link*
 [Day 32: Annotations](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/annotations)
 [Day 32: Reflection](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/reflection)
+
+
+
+### Day 33: Scenario-Based Practice
+**Date:** 23-Jan-2026
+
+1. Solved 5 scenario-based problems.
+   - ResumeAnalyzer – Smart Resume Filtering System
+   - TravelLog – Trip Organizer for Backpackers
+   - FeedbackGuru – Smart Survey Analyzer
+   - CodeRepoCleaner – Java File Scanner and Organizer
+   - ExamScanner – Digital Answer Sheet Validator
+3. Focused on logical thinking and real-world problem solving.
+4. Committed and pushed all solutions.
+
+[Day 33: Scenario-based problems](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/ScenarioBasedQuestions)
