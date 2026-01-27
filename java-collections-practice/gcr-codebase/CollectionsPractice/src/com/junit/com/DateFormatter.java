@@ -1,4 +1,4 @@
-package com.junit.dateformatter;
+package com.junit.com;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
