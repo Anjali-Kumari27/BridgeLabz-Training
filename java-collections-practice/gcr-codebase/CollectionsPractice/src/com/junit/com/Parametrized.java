@@ -1,4 +1,4 @@
-package com.junit.testparametrizedtests;
+package com.junit.com;
 
 public class Parametrized {
 	
