@@ -6,6 +6,7 @@ Each branch focuses on a specific phase of learning:
 - Java Object-Oriented Programming
 - Data Structures & Algorithms
 - Collection Framework
+- Java I/o Streams
 
 
 ### High-Level Project Structure
@@ -82,6 +83,15 @@ BridgeLabz-Training/
 |   |
 │   └── 📁 scenario-based/                             # Real-world problems
 |
+├── 📁 java-iostreams-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 IOStreamsPractice/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 csv/                       # CSV reading/writing, validation, and large-file handling
+|   |
+│   └── 📁 scenario-based-codebase/                   # Real-world problems
+|
 └── README.md
 
 ```
@@ -152,7 +162,7 @@ Branch: `dsa-practice`
 | 29  | 19-Jan | Scenario-Based Problems                            | Using Sorting algorithms               |
 
 
-### Week 4 & 5: Collection Framework
+### Week 4, 5 & 6: Collection Framework
 Branch: `java-collections-practice`
 
 | Day | Date   |      Topic                                         |       Coverage                         |
