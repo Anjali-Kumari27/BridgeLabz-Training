@@ -1,4 +1,4 @@
-package com.junit.bankingtransactions;
+package com.junit.com;
 
 //Class representing a bank account
 public class BankAccount {
