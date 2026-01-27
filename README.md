@@ -5,6 +5,7 @@ Each branch focuses on a specific phase of learning:
 - Core Java fundamentals
 - Java Object-Oriented Programming
 - Data Structures & Algorithms
+- Collection Framework
 
 
 ### High-Level Project Structure
@@ -38,23 +39,50 @@ BridgeLabz-Training/
 │   └── 📁 scenario-based/                                           # Real-world problems
 │
 └── 📁 dsa-practice/
-    ├── 📁 gcr-codebase/
-    │   └── 📁 DSAProgramming/
-    │       └── 📁 src/
-    │           └── 📁 com/
-    │               ├── 📁 linkedlist/               # Singly, Doubly, Circular Linked List
-    │               └── 📁 stackqueue/               # Stack, Queue problems
-    │               └── 📁 hashmapandhashfun/        # HashMap problems
-    │               └── 📁 sorting/                  # Sorting
-    │               └── 📁 searching/                # Searching
-    │               └── 📁 inputstreamreader/        # InputStreamReader
-    │               └── 📁 filereader/               # FileReader
-    │               └── 📁 runtimeanalysis/          # Analysis of time and space complexity
-    │               └── 📁 stringbuffer/             # StringBuffer
-    │               └── 📁 stringbuilder/            # StringBuilder
-    │               └── 📁 tree/                     # Trees
-    ├── 📁 leetcode-codebase/                        # DSA LeetCode solutions
-    └── 📁 scenario-based/                           # DSA scenario-based problems
+|   ├── 📁 gcr-codebase/
+|   │   └── 📁 DSAProgramming/
+|   │       └── 📁 src/
+|   │           └── 📁 com/
+|   │               ├── 📁 linkedlist/               # Singly, Doubly, Circular Linked List
+|   │               └── 📁 stackqueue/               # Stack, Queue problems
+|   │               └── 📁 hashmapandhashfun/        # HashMap problems
+|   │               └── 📁 sorting/                  # Sorting
+|   │               └── 📁 searching/                # Searching
+|   │               └── 📁 inputstreamreader/        # InputStreamReader
+|   │               └── 📁 filereader/               # FileReader
+|   │               └── 📁 runtimeanalysis/          # Analysis of time and space complexity
+|   │               └── 📁 stringbuffer/             # StringBuffer
+|   │               └── 📁 stringbuilder/            # StringBuilder
+|   │               └── 📁 tree/                     # Trees
+|   ├── 📁 leetcode-codebase/                        # DSA LeetCode solutions
+|   └── 📁 scenario-based/                           # DSA scenario-based problems
+|
+├── 📁 java-collections-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 CollectionsPractice/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 generics/                   # Generic classes, methods, wildcards
+│   │               └── 📁 variousinterfaces/          
+│   │               |    ├── 📁 setinterface/          # Set interface and implementations
+│   │               |    ├── 📁 queueinterface/        # Queue & Deque interface examples
+│   │               |    ├── 📁 listinterface/         # List interface and implementations
+│   │               |    ├── 📁 mapinterface/          # Map interface and implementations
+│   │               |    └── 📁 additionalquestion/    # Hands-on example programs
+|   |               |
+│   │               ├── 📁 streams/                    # I/O streams, buffering, and serialization
+│   │               ├── 📁 exceptionhandling/          # Checked, unchecked, custom exceptions, try-with-resources
+│   │               └── 📁 regex/                      # Pattern matching, validation rules, groups & quantifiers
+│   │               ├── 📁 junit/                      # Unit testing, assertions, test lifecycle, test cases
+│   │               |    ├── 📁 com/                   #include main files
+│   │               |    └── 📁 tests/                 #include test files
+|   |               |
+│   │               ├── 📁 reflection/                 # Runtime inspection, dynamic invocation, proxies
+│   │               └── 📁 annotations/                # Built-in & custom annotations, processors
+|   |
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+└── README.md
 
 ```
 
@@ -133,6 +161,7 @@ Branch: `java-collections-practice`
 | 28  | 17-Jan | Fundamentals of Collection Framework               | Collection hierarchy, List, Set, Queue, Map, implementations      |
 | 29  | 19-Jan | Java Streams                                       | Byte, character, buffered, object & bridge streams                          |
 | 30  | 20-Jan | Exception Handling                                 | Checked, unchecked, custom exceptions, try(resources) & nested             |
+| 31  | 21-Jan | Regex & JUnit Testing                              | Pattern matching, validations, groups, unit testing, assertions           |
 
 
 
@@ -169,7 +198,8 @@ Collection Framework (`java-collections-practice`)
 - Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
 - Collections Framework Overview: Purpose and benefits of Java Collections Framework with their implementation.
 - Java IO Streams: Efficient File handling, Byte & character streams, buffering, and object serialization.
-- Exception Handling: `Checked` vs `unchecked` exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, `custom exceptions`, try-with-resources
+- Exception Handling: `Checked` vs `unchecked` exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, `custom exceptions`, try-with-resources.
+- Regex and JUnit: Pattern matching, validation rules, groups, quantifiers, unit tests, assertions, test lifecycle.
 
   
 ### Notes
@@ -218,6 +248,8 @@ Collection Framework (`java-collections-practice`)
 - [Fundamentals of Collection Framework](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/variousinterfaces)
 - [Java IO Streams](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/streams)
 - [Exception Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/exceptionhandling)
+- [Regex](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/regex)
+- [JUnit](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/junit)
 
   
 ###  Learnings & Best Practices
