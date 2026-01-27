@@ -1,4 +1,4 @@
-package com.junit.userregistration;
+package com.junit.com;
 
 public class UserRegistration {
 	// Method to register a user
