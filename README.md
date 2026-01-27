@@ -80,7 +80,7 @@ BridgeLabz-Training/
 │   │               ├── 📁 reflection/                 # Runtime inspection, dynamic invocation, proxies
 │   │               └── 📁 annotations/                # Built-in & custom annotations, processors
 |   |
-│   └── 📁 scenario-based-codebase/           # Real-world problems
+│   └── 📁 scenario-based/                             # Real-world problems
 |
 └── README.md
 
@@ -162,6 +162,7 @@ Branch: `java-collections-practice`
 | 29  | 19-Jan | Java Streams                                       | Byte, character, buffered, object & bridge streams                          |
 | 30  | 20-Jan | Exception Handling                                 | Checked, unchecked, custom exceptions, try(resources) & nested             |
 | 31  | 21-Jan | Regex & JUnit Testing                              | Pattern matching, validations, groups, unit testing, assertions           |
+| 32  | 22-Jan | Annotations & Reflection                           | Built-in & custom annotations, runtime inspection, proxies              |
 
 
 
@@ -200,6 +201,8 @@ Collection Framework (`java-collections-practice`)
 - Java IO Streams: Efficient File handling, Byte & character streams, buffering, and object serialization.
 - Exception Handling: `Checked` vs `unchecked` exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, `custom exceptions`, try-with-resources.
 - Regex and JUnit: Pattern matching, validation rules, groups, quantifiers, unit tests, assertions, test lifecycle.
+- Annotation: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage.
+- Reflection: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing.
 
   
 ### Notes
@@ -250,6 +253,8 @@ Collection Framework (`java-collections-practice`)
 - [Exception Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/exceptionhandling)
 - [Regex](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/regex)
 - [JUnit](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/junit)
+- [Annotations](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/annotations)
+- [Reflection](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/reflection)
 
   
 ###  Learnings & Best Practices
