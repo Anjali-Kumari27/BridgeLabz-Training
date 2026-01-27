@@ -1,7 +1,9 @@
-package com.junit.testbeforeaftereach;
+package com.junit.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
+
+import com.junit.com.DatabaseConnection;
 public class TestDatabase {
 	DatabaseConnection db;
 	
