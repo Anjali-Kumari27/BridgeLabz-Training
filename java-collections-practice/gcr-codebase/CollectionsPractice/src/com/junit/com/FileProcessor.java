@@ -1,4 +1,4 @@
-package com.junit.filehandlingtest;
+package com.junit.com;
 import java.io.*;
 public class FileProcessor {
 	
