@@ -1,6 +1,9 @@
-package com.junit.calculatortest;
+package com.junit.tests;
 
 import org.junit.jupiter.api.Test;
+
+import com.junit.com.Calculator;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.assertThrows;
