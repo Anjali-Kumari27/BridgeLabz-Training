@@ -1,7 +1,10 @@
-package com.junit.performancetesting;
+package com.junit.tests;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
+
+import com.junit.com.TaskPerformance;
+
 import static org.junit.jupiter.api.Assertions.assertTimeout;
 
 import java.time.Duration;
