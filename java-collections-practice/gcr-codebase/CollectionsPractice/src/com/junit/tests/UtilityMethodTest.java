@@ -1,8 +1,10 @@
-package com.junit.teststringutilitymethods;
+package com.junit.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.junit.com.StringUtils;
 
 public class UtilityMethodTest {
 
