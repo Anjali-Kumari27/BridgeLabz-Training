@@ -1,4 +1,4 @@
-package com.junit.performancetesting;
+package com.junit.com;
 
 public class TaskPerformance {
 	public String longRunningTask() {
