@@ -1,9 +1,12 @@
-package com.junit.testlistoperations;
+package com.junit.tests;
 
 import java.util.List;
 import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.junit.com.ListManager;
+
 import static org.junit.jupiter.api.Assertions.*;
 public class ListManagerTest {
 	ListManager manager;
