@@ -131,6 +131,8 @@ Branch: `java-collections-practice`
 | --- | ------ | -------------------------------------------------- | -------------------------------------- |
 | 27  | 16-Jan | Fundamentals of Generics                           | Generic classes, methods, type parameters, bounded types and wildcards  |
 | 28  | 17-Jan | Fundamentals of Collection Framework               | Collection hierarchy, List, Set, Queue, Map, implementations      |
+| 29  | 19-Jan | Java Streams                                       | Byte, character, buffered, object & bridge streams
+                     |
 
 
 
@@ -165,6 +167,8 @@ Data Structures & Algorithms (`dsa-practice`)
 
 Collection Framework (`java-collections-practice`)
 - Generics: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
+- Collections Framework Overview: Purpose and benefits of Java Collections Framework with their implementation.
+- Java IO Streams: Efficient File handling, Byte & character streams, buffering, and object serialization.
 
   
 ### Notes
