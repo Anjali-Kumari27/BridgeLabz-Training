@@ -1,4 +1,4 @@
-package com.junit.teststringutilitymethods;
+package com.junit.com;
 
 public class StringUtils {
 	//String str;
