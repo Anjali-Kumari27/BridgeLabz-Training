@@ -1,4 +1,4 @@
-package com.junit.testlistoperations;
+package com.junit.com;
 
 import java.util.List;
 
