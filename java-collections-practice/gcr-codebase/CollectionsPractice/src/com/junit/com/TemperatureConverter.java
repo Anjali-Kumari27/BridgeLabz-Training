@@ -1,4 +1,4 @@
-package com.junit.temperatureconverter;
+package com.junit.com;
 
 public class TemperatureConverter {
 	
