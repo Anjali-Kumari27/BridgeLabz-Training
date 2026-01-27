@@ -1,4 +1,4 @@
-package com.junit.passwordstrength;
+package com.junit.com;
 
 public class PasswordValidator {
 	private static final String PASSWORD_REGEX =
