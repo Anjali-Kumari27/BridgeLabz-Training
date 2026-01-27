@@ -164,6 +164,7 @@ Branch: `java-collections-practice`
 | 31  | 21-Jan | Regex & JUnit Testing                              | Pattern matching, validations, groups, unit testing, assertions           |
 | 32  | 22-Jan | Annotations & Reflection                           | Built-in & custom annotations, runtime inspection, proxies              |
 | 33  | 23-Jan | Scenario Based Problems                            | Java Collection Framework Concepts                                          |
+| 34  | 24-Jan | Scenario Based Problems                            | Java Collection Framework Concepts                                          |
 
 
 
