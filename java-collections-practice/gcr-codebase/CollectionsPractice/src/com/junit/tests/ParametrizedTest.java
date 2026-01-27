@@ -1,7 +1,10 @@
-package com.junit.testparametrizedtests;
+package com.junit.tests;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import com.junit.com.Parametrized;
+
 import static org.junit.jupiter.api.Assertions.*;
 public class ParametrizedTest {
 	Parametrized para = new Parametrized();
