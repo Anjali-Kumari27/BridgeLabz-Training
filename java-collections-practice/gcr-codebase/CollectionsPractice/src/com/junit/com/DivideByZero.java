@@ -1,4 +1,4 @@
-package com.junit.testexceptionhandling;
+package com.junit.com;
 
 public class DivideByZero {
 	public int divide(int a, int b) {
