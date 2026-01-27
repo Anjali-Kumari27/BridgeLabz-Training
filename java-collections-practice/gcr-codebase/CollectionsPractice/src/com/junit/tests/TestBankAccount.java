@@ -1,6 +1,9 @@
-package com.junit.bankingtransactions;
+package com.junit.tests;
 
 import org.junit.jupiter.api.Test;
+
+import com.junit.com.BankAccount;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestBankAccount {
