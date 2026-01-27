@@ -199,4 +199,21 @@
 3. Focused on logical thinking and real-world problem solving.
 4. Committed and pushed all solutions.
 
+🔗 *Code Link*
 [Day 33: Scenario-based problems](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/ScenarioBasedQuestions)
+
+
+### Day 34: Scenario-Based Practice
+**Date:** 24-Jan-2026
+
+1. Solved 5 scenario-based problems.
+   - MedInventory – Smart Hospital Inventory Tracker
+   - ChatLogParser – Messaging Pattern Analyzer
+   - SongVault – Personal Music Library Manager
+   - ExamResultUploader – Bulk Marks Processing
+   - DealTracker – E-Commerce Discount Validator
+3. Focused on logical thinking and real-world problem solving.
+4. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 34: Scenario-based problems](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/ScenarioBasedQuestions)
