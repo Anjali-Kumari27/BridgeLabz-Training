@@ -183,6 +183,7 @@ Branch: `java-iostreams-practice`
 | Day | Date   |      Topic                                |       Coverage                         |
 | --- | ------ | ------------------------------------------| -------------------------------------- |
 | 33  | 23-Jan | CSV Data Handling                         | Read/write CSV, validation, large-file processing, dataset merging  |
+| 34  | 24-Jan | JSON Data Handling                        | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.  |
 
 
 ### Key Concepts Covered 
@@ -227,6 +228,7 @@ Collection Framework (`java-collections-practice`)
 
 Java I/O Streams (`java-iostreams-practice`)
 - CSV Data Handling: Reading/writing CSV files, OpenCSV usage, data validation, object mapping, and large-file handling.
+- JSON Data Handling: JSON creation, parsing, POJO mapping, schema validation, merging datasets, CSV to JSON conversion.
 
   
 ### Notes
@@ -281,8 +283,9 @@ Java I/O Streams (`java-iostreams-practice`)
 - [Reflection](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/CollectionsPractice/src/com/reflection)
 - [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/ScenarioBasedQuestions)
 
-🔗 Branch (`core-java-practice`):
+🔗 Branch (`java-iostreams-practice`):
 - [CSV](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsPractice/src/com/csv)
+- [JSON Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConceptMaven/src/main/java/com/jsonhandling)
 
 
 ###  Learnings & Best Practices
