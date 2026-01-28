@@ -22,3 +22,19 @@
 
 🔗 *Code Link*
 [Day 33 : CSV Data Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsPractice/src/com/csv)
+
+
+### Day 34: JSon Data Handling
+**Date:** 24-Jan-2026
+
+1. Studied JSON fundamentals and structure.
+2. Created JSON objects and arrays using popular libraries.
+3. Converted Java objects to JSON and vice versa.
+4. Parsed JSON dynamically.
+5. Read and wrote JSON files.
+6. Validated JSON structure using schemas.
+7. Practiced filtering, merging, and transforming JSON data.
+8. Committed and pushed all work.
+
+🔗 *Code Link*
+[Day 34 : JSon Data Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConceptMaven/src/main/java/com/jsonhandling)
