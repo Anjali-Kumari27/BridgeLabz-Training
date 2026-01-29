@@ -7,6 +7,7 @@ Each branch focuses on a specific phase of learning:
 - Data Structures & Algorithms
 - Collection Framework
 - Java I/o Streams
+- Java 8 Features
 
 
 ### High-Level Project Structure
@@ -91,6 +92,17 @@ BridgeLabz-Training/
 │   │               ├── 📁 csv/                       # CSV reading/writing, validation, and large-file handling
 |   |
 │   └── 📁 scenario-based-codebase/                   # Real-world problems
+|
+├── 📁 java8-programming-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 Java8ProgrammingPractice/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 lambdas/                  # Lambda expressions, functional interfaces, syntax
+│   │               └── 📁 methodreferences/         # Static, instance, constructor references
+│   │               └── 📁 interfaces/               # Default methods, static methods, functional interfaces
+|   |
+│   └── 📁 scenario-based-codebase/                  # Real-world problems
 |
 └── README.md
 
