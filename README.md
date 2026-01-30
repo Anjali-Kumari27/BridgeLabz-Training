@@ -98,9 +98,8 @@ BridgeLabz-Training/
 │   │  └── 📁 Java8ProgrammingPractice/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
-│   │               ├── 📁 lambdas/                  # Lambda expressions, functional interfaces, syntax
-│   │               └── 📁 methodreferences/         # Static, instance, constructor references
-│   │               └── 📁 interfaces/               # Default methods, static methods, functional interfaces
+│   │               ├── 📁 lambdaexpression/                  # Lambda expressions, functional interfaces, syntax
+│   │               └── 📁 methodrefrence/                    # Static, instance, constructor references
 |   |
 │   └── 📁 scenario-based-codebase/                  # Real-world problems
 |
@@ -192,10 +191,19 @@ Branch: `java-collections-practice`
 ### Week 6: Java I/O Streams
 Branch: `java-iostreams-practice`
 
-| Day | Date   |      Topic                                |       Coverage                         |
-| --- | ------ | ------------------------------------------| -------------------------------------- |
-| 33  | 23-Jan | CSV Data Handling                         | Read/write CSV, validation, large-file processing, dataset merging  |
-| 34  | 24-Jan | JSON Data Handling                        | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.  |
+| Day | Date   |      Topic                                |       Coverage                                                          |
+| --- | ------ | ------------------------------------------| ------------------------------------------------------------------------|
+| 33  | 23-Jan | CSV Data Handling                         | Read/write CSV, validation, large-file processing, dataset merging      |
+| 34  | 24-Jan | JSON Data Handling                        | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.        |
+
+
+### Week 7: Java 8 Features
+Branch: `java8-programming-practice`
+
+| Day | Date   |      Topic                                             |       Coverage                                                          |
+| --- | ------ | -------------------------------------------------------| ------------------------------------------------------------------------|
+| 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                       |
+
 
 
 ### Key Concepts Covered 
@@ -242,7 +250,12 @@ Java I/O Streams (`java-iostreams-practice`)
 - CSV Data Handling: Reading/writing CSV files, OpenCSV usage, data validation, object mapping, and large-file handling.
 - JSON Data Handling: JSON creation, parsing, POJO mapping, schema validation, merging datasets, CSV to JSON conversion.
 
-  
+Java 8 Features (`java8-programming-practice`)
+- Lambda Expressions: Functional programming syntax and usage
+- Functional Interfaces: `Predicate`, `Function`, `Consumer`, `Supplier`
+- Method References: Static, instance, and constructor references
+
+
 ### Notes
 
 1. Each branch contains its own detailed README with day-wise learning logs
@@ -299,6 +312,8 @@ Java I/O Streams (`java-iostreams-practice`)
 - [CSV](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsPractice/src/com/csv)
 - [JSON Handling](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConceptMaven/src/main/java/com/jsonhandling)
 
+🔗 Branch (`java8-programming-practice`):
+- [Lambda & Method refrence](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/lambdaexpression)
 
 ###  Learnings & Best Practices
 
