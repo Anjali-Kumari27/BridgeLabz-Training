@@ -12,12 +12,10 @@ BridgeLabz-Training/
 |   |   └── Java8Concepts/
 |   |       └── src/
 |   |           └── com/
-|   |               ├── lambdas/
-|   |               ├── methodreferences/
-|   |               └── interfaces/
+|   |               ├── lambdaexpression/
+|   |               ├── methodrefrence/
 |   |
-│ 	│── leet-code-codebase/
-│ 	└── scenario-based-codebase/
+│ 	└── scenario-based/
 └── README.md
 ```
 2. Studied Java 8 goals and functional-programming concepts.
