@@ -29,3 +29,18 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 35 : Lambda, Method refrence and Interface](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/lambdaexpression)
+
+### Day 35: Scenario-Based Problems on Lambda Expressions
+**Date:** 27-Jan-2026
+
+1. Solved 5 scenario-based problems covering different real-world use cases:
+   - Student / School System
+   - Employee / Office System
+   - Shopping / E-Commerce
+   - Banking / Finance
+   - Basic System Tasks
+2. Focused on logical thinking and real-world problem solving using lambda expressions.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 35 : Scenario Based Solution](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/lambdaexpression)
