@@ -203,7 +203,7 @@ Branch: `java8-programming-practice`
 | Day | Date   |      Topic                                             |       Coverage                                                          |
 | --- | ------ | -------------------------------------------------------| ------------------------------------------------------------------------|
 | 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                       |
-
+| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference   |
 
 
 ### Key Concepts Covered 
@@ -254,6 +254,7 @@ Java 8 Features (`java8-programming-practice`)
 - Lambda Expressions: Functional programming syntax and usage
 - Functional Interfaces: `Predicate`, `Function`, `Consumer`, `Supplier`
 - Method References: Static, instance, and constructor references
+- Problem Solving: Real-world scenario problems (Lambda Expression)
 
 
 ### Notes
@@ -314,6 +315,7 @@ Java 8 Features (`java8-programming-practice`)
 
 🔗 Branch (`java8-programming-practice`):
 - [Lambda & Method refrence](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/lambdaexpression)
+- [Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/lambdaexpression)
 
 ###  Learnings & Best Practices
 
