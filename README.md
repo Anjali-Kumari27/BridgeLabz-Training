@@ -14,6 +14,7 @@ BridgeLabz-Training/
 |   |           └── com/
 |   |               ├── lambdaexpression/
 |   |               ├── methodrefrence/
+|   |               ├── interfaces/
 |   |
 │ 	└── scenario-based/
 └── README.md
@@ -44,3 +45,18 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 35 : Scenario Based Solution](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/lambdaexpression)
+
+
+### Day 36: Scenario-Based Problems on Lambda Expressions
+**Date:** 28-Jan-2026
+
+1. Implemented different types of interfaces in Java.
+2. Worked with **Marker Interfaces** for tagging and conditional behavior.
+3. Used **Static methods in interfaces** for utility-style functionality.
+4. Implemented **Default methods** to provide common behavior across classes.
+5. Created and used **Functional Interfaces** for lambda expression support.
+6. Practiced real-world examples.
+7. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 36 : Interfaces](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/interfaces)
