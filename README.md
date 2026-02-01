@@ -203,9 +203,14 @@ Branch: `java8-programming-practice`
 
 | Day | Date   |      Topic                                             |       Coverage                                                          |
 | --- | ------ | -------------------------------------------------------| ------------------------------------------------------------------------|
-| 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                       |
-| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference            |
-| 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods            |
+| 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                      
+            |
+| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference            
+            |
+| 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods            
+            |
+| 37  | 29-Jan | Stream API                                             | Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison
+            |
 
 
 ### Key Concepts Covered 
@@ -258,6 +263,7 @@ Java 8 Features (`java8-programming-practice`)
 - Method References: Static, instance, and constructor references
 - Problem Solving: Real-world scenario problems (Lambda Expression)
 - Interfaces : `marker`, `Functional`, **static and default method**
+- Stream API: Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, `forEach` comparison
 
 
 ### Notes
@@ -320,6 +326,7 @@ Java 8 Features (`java8-programming-practice`)
 - [Lambda & Method refrence](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/lambdaexpression)
 - [Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/lambdaexpression)
 - [Interfaces](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/interfaces)
+- [Stream API](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/streamapi)
 
 ###  Learnings & Best Practices
 
