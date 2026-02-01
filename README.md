@@ -100,8 +100,9 @@ BridgeLabz-Training/
 │   │           └── 📁 com/
 │   │               ├── 📁 lambdaexpression/                  # Lambda expressions, functional interfaces, syntax
 │   │               └── 📁 methodrefrence/                    # Static, instance, constructor references
+│   │               └── 📁 interfaces/                        # Functional, Marker interface with static and default methods
 |   |
-│   └── 📁 scenario-based-codebase/                  # Real-world problems
+│   └── 📁 scenario-based-codebase/                           # Real-world problems
 |
 └── README.md
 
@@ -203,7 +204,8 @@ Branch: `java8-programming-practice`
 | Day | Date   |      Topic                                             |       Coverage                                                          |
 | --- | ------ | -------------------------------------------------------| ------------------------------------------------------------------------|
 | 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                       |
-| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference   |
+| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference            |
+| 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods            |
 
 
 ### Key Concepts Covered 
@@ -255,6 +257,7 @@ Java 8 Features (`java8-programming-practice`)
 - Functional Interfaces: `Predicate`, `Function`, `Consumer`, `Supplier`
 - Method References: Static, instance, and constructor references
 - Problem Solving: Real-world scenario problems (Lambda Expression)
+- Interfaces : `marker`, `Functional`, **static and default method**
 
 
 ### Notes
@@ -316,6 +319,7 @@ Java 8 Features (`java8-programming-practice`)
 🔗 Branch (`java8-programming-practice`):
 - [Lambda & Method refrence](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/lambdaexpression)
 - [Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/lambdaexpression)
+- [Interfaces](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/interfaces)
 
 ###  Learnings & Best Practices
 
