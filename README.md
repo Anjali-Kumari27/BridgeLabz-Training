@@ -101,6 +101,7 @@ BridgeLabz-Training/
 │   │               ├── 📁 lambdaexpression/                  # Lambda expressions, functional interfaces, syntax
 │   │               └── 📁 methodrefrence/                    # Static, instance, constructor references
 │   │               └── 📁 interfaces/                        # Functional, Marker interface with static and default methods
+│   │               └── 📁 streamapi/                         # Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison
 |   |
 │   └── 📁 scenario-based-codebase/                           # Real-world problems
 |
@@ -203,14 +204,10 @@ Branch: `java8-programming-practice`
 
 | Day | Date   |      Topic                                             |       Coverage                                                          |
 | --- | ------ | -------------------------------------------------------| ------------------------------------------------------------------------|
-| 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                      
-            |
-| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference            
-            |
-| 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods            
-            |
-| 37  | 29-Jan | Stream API                                             | Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison
-            |
+| 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                                                                     |
+| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference                                                          |
+| 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods                                                          |
+| 37  | 29-Jan | Stream API                                             | Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison |
 
 
 ### Key Concepts Covered 
