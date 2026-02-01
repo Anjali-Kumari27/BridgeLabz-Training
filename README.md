@@ -178,14 +178,14 @@ Branch: `dsa-practice`
 ### Week 4, 5 & 6: Collection Framework
 Branch: `java-collections-practice`
 
-| Day | Date   |      Topic                                         |       Coverage                         |
-| --- | ------ | -------------------------------------------------- | -------------------------------------- |
-| 27  | 16-Jan | Fundamentals of Generics                           | Generic classes, methods, type parameters, bounded types and wildcards  |
-| 28  | 17-Jan | Fundamentals of Collection Framework               | Collection hierarchy, List, Set, Queue, Map, implementations      |
+| Day | Date   |      Topic                                         |       Coverage                                                              |
+| --- | ------ | -------------------------------------------------- | ----------------------------------------------------------------------------|
+| 27  | 16-Jan | Fundamentals of Generics                           | Generic classes, methods, type parameters, bounded types and wildcards      |
+| 28  | 17-Jan | Fundamentals of Collection Framework               | Collection hierarchy, List, Set, Queue, Map, implementations                |
 | 29  | 19-Jan | Java Streams                                       | Byte, character, buffered, object & bridge streams                          |
-| 30  | 20-Jan | Exception Handling                                 | Checked, unchecked, custom exceptions, try(resources) & nested             |
-| 31  | 21-Jan | Regex & JUnit Testing                              | Pattern matching, validations, groups, unit testing, assertions           |
-| 32  | 22-Jan | Annotations & Reflection                           | Built-in & custom annotations, runtime inspection, proxies              |
+| 30  | 20-Jan | Exception Handling                                 | Checked, unchecked, custom exceptions, try(resources) & nested              |
+| 31  | 21-Jan | Regex & JUnit Testing                              | Pattern matching, validations, groups, unit testing, assertions             |
+| 32  | 22-Jan | Annotations & Reflection                           | Built-in & custom annotations, runtime inspection, proxies                  |
 | 33  | 23-Jan | Scenario Based Problems                            | Java Collection Framework Concepts                                          |
 | 34  | 24-Jan | Scenario Based Problems                            | Java Collection Framework Concepts                                          |
 
@@ -202,13 +202,13 @@ Branch: `java-iostreams-practice`
 ### Week 7: Java 8 Features
 Branch: `java8-programming-practice`
 
-| Day | Date   |      Topic                                             |       Coverage                                                          |
-| --- | ------ | -------------------------------------------------------| ------------------------------------------------------------------------|
-| 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                                                                     |
-| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference                                                          |
-| 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods                                                          |
+| Day | Date   |      Topic                                             |       Coverage                                                                                                    |
+| --- | ------ | -------------------------------------------------------| ------------------------------------------------------------------------------------------------------------------|
+| 35  | 27-Jan | Lambda Expression , Method Refrences & Interfaces      | Lambdas, functional interfaces, method references                                                                 |
+| 35  | 27-Jan | Scenario based problem on Lambda Expression            | Lambda Expression, Functional Interface and Method reference                                                      |
+| 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods                                                      |
 | 37  | 29-Jan | Stream API                                             | Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison |
-
+| 38  | 30-Jan | Collectors                                             | groupingBy, partitioningBy, joining, toList/toSet/toMap, summarizing statistics                                   |
 
 ### Key Concepts Covered 
 
@@ -261,6 +261,7 @@ Java 8 Features (`java8-programming-practice`)
 - Problem Solving: Real-world scenario problems (Lambda Expression)
 - Interfaces : `marker`, `Functional`, **static and default method**
 - Stream API: Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, `forEach` comparison
+- Collectors: Collectors usage with streams, groupingBy, partitioningBy, joining, summarizing statistics
 
 
 ### Notes
@@ -324,6 +325,7 @@ Java 8 Features (`java8-programming-practice`)
 - [Scenario Based](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/lambdaexpression)
 - [Interfaces](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/interfaces)
 - [Stream API](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/streamapi)
+- [Collectors](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/collectors)
 
 ###  Learnings & Best Practices
 
