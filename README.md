@@ -94,3 +94,20 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 38 : Collectors](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/collectors)
+
+
+### Day 39: Scenario-Based Problems on Functional Interface
+**Date:** 31-Jan-2026
+
+1. Solved scenario-based problems covering different real-world use cases, using:
+   - Predicate
+   - Consumer
+   - Custom Functional Interface
+   - Supplier
+   - Runnable
+   - Comparator
+2. Focused on logical thinking and real-world problem solving using Functional interface.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 39 : Scenario Based Solution](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/functionalinterface)
