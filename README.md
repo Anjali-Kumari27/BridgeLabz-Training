@@ -209,6 +209,7 @@ Branch: `java8-programming-practice`
 | 36  | 28-Jan | Interfaces                                             | Functional, Marker interface with static and default methods                                                      |
 | 37  | 29-Jan | Stream API                                             | Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison |
 | 38  | 30-Jan | Collectors                                             | groupingBy, partitioningBy, joining, toList/toSet/toMap, summarizing statistics                                   |
+| 39  | 31-Jan | Scenario based problem on Functional Interface         | Predicate, Consumer, Custom interface, Supplier, Comparator and Runnable                                          |
 
 ### Key Concepts Covered 
 
@@ -262,6 +263,7 @@ Java 8 Features (`java8-programming-practice`)
 - Interfaces : `marker`, `Functional`, **static and default method**
 - Stream API: Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, `forEach` comparison
 - Collectors: Collectors usage with streams, groupingBy, partitioningBy, joining, summarizing statistics
+- Scenario-Based Problem Solving: Functional Interface (`Predicate`, `Consumer`, `Supplier`, `Comparator`, `Runnable` and `Custom interface`)
 
 
 ### Notes
@@ -326,6 +328,7 @@ Java 8 Features (`java8-programming-practice`)
 - [Interfaces](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/interfaces)
 - [Stream API](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/streamapi)
 - [Collectors](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/collectors)
+- [Scenario Based on Functional Interface](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/functionalinterface)
 
 ###  Learnings & Best Practices
 
