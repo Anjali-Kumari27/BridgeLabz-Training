@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 /*
  * 7. Remove empty strings
    Input: ["java","","spring","","boot"]

@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 /*
  * 4. Convert list of strings to uppercase
    Input: ["java","spring","boot"]

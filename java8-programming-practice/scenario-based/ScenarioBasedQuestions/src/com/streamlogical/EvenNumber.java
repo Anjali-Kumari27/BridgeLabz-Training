@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 /*
  * 3. Find even numbers from list
    Input: [2,5,7,8,10,13]

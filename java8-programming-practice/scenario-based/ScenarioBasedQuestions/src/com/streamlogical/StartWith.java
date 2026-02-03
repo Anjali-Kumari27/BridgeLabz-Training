@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 /*
  * 6. Count strings starting with ‘a’
    Input: ["apple","banana","ant","car"]

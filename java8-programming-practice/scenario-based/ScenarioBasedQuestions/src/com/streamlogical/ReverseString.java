@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 
 /*
  * 10. Reverse each string in list

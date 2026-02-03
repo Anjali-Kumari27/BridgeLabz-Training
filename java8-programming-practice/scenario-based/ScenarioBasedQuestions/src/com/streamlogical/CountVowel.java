@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 
 /*
  * 1. Count vowels in a string using Stream

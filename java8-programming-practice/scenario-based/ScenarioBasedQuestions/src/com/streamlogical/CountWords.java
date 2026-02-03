@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 /*
  * 2. Count number of words in a sentence
    Input: "Java is very powerful"

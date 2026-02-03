@@ -1,4 +1,4 @@
-package com.functionalinterface.streamlogical;
+package com.streamlogical;
 /*
  * 8. Sum of all numbers using stream
    Input: [1,2,3,4,5]
