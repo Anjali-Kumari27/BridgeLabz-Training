@@ -210,6 +210,8 @@ Branch: `java8-programming-practice`
 | 37  | 29-Jan | Stream API                                             | Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison |
 | 38  | 30-Jan | Collectors                                             | groupingBy, partitioningBy, joining, toList/toSet/toMap, summarizing statistics                                   |
 | 39  | 31-Jan | Scenario based problem on Functional Interface         | Predicate, Consumer, Custom interface, Supplier, Comparator and Runnable                                          |
+| 40  | 01-Feb | Scenario based problem on Streams                      | Using stream api Concepts                                                                                         |
+
 
 ### Key Concepts Covered 
 
@@ -264,6 +266,7 @@ Java 8 Features (`java8-programming-practice`)
 - Stream API: Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, `forEach` comparison
 - Collectors: Collectors usage with streams, groupingBy, partitioningBy, joining, summarizing statistics
 - Scenario-Based Problem Solving: Functional Interface (`Predicate`, `Consumer`, `Supplier`, `Comparator`, `Runnable` and `Custom interface`)
+- Scenario-Based Problem Solving : Stream api
 
 
 ### Notes
@@ -329,6 +332,7 @@ Java 8 Features (`java8-programming-practice`)
 - [Stream API](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/streamapi)
 - [Collectors](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/collectors)
 - [Scenario Based on Functional Interface](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/functionalinterface)
+- [Scenario Based on Streams](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/streamlogical)
 
 ###  Learnings & Best Practices
 
