@@ -111,3 +111,20 @@ BridgeLabz-Training/
 
 🔗 *Code Link*
 [Day 39 : Scenario Based Solution](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/functionalinterface)
+
+
+### Day 40: Scenario-Based Problems on Functional Interface
+**Date:** 01-Feb-2026
+
+1. Solved scenario-based problems using Stream api , such as :
+   - Even Number
+   - Maximum Number
+   - Word count 
+   - String length
+   - Empty String
+   - To Uppercase
+2. Focused on logical thinking and real-world problem solving using Functional interface.
+3. Committed and pushed all solutions.
+
+🔗 *Code Link*
+[Day 40 : Scenario Based Solution](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/streamlogical)
