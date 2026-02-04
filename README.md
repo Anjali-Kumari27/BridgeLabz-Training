@@ -8,6 +8,7 @@ Each branch focuses on a specific phase of learning:
 - Collection Framework
 - Java I/o Streams
 - Java 8 Features
+- Java Design Pattern Practice
 
 
 ### High-Level Project Structure
@@ -104,6 +105,15 @@ BridgeLabz-Training/
 │   │               └── 📁 streamapi/                         # Intermediate & terminal stream operations, stateless vs stateful operations, parallel streams, forEach comparison
 |   |
 │   └── 📁 scenario-based-codebase/                           # Real-world problems
+|
+├── 📁 java-design-pattern-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DesignPatternPractice/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 smartuniversitymanagementsystem/                                 # SOLID principles and design patterns
+|   |
+│   └── 📁 scenario-based/                                                                  # Real-world problems
 |
 └── README.md
 
@@ -213,6 +223,13 @@ Branch: `java8-programming-practice`
 | 40  | 01-Feb | Scenario based problem on Streams                      | Using stream api Concepts                                                                                         |
 
 
+### Week 7: Java Design Principles & Patterns
+Branch: `java-design-pattern-practice`
+
+| Day | Date   |      Topic                                |       Coverage                                                          |
+| --- | ------ | ------------------------------------------| ------------------------------------------------------------------------|
+| 39  | 31-Jan | Design Principles & Patterns              | SOLID, DRY, YAGNI, KISS, GoF Patterns, and Class Diagrams               |
+
 ### Key Concepts Covered 
 
 Core Java (`core-java-practice`)
@@ -267,6 +284,11 @@ Java 8 Features (`java8-programming-practice`)
 - Collectors: Collectors usage with streams, groupingBy, partitioningBy, joining, summarizing statistics
 - Scenario-Based Problem Solving: Functional Interface (`Predicate`, `Consumer`, `Supplier`, `Comparator`, `Runnable` and `Custom interface`)
 - Scenario-Based Problem Solving : Stream api
+
+Java Design Pattern and Principles (`java8-design-pattern-practice`)
+- Design Principles: SOLID, DRY, KISS, YAGNI, composition over inheritance
+- Design Patterns: Singleton, Factory, Observer, Builder
+- Class Diagrams
 
 
 ### Notes
@@ -333,6 +355,10 @@ Java 8 Features (`java8-programming-practice`)
 - [Collectors](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/Java8ProgrammingPractice/src/com/collectors)
 - [Scenario Based on Functional Interface](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/functionalinterface)
 - [Scenario Based on Streams](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/ScenarioBasedQuestions/src/com/streamlogical)
+
+🔗 Branch (`java-design-pattern-practice`):
+- [Design Principles & Patterns](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternPractice/src/com/smartuniversitylibrarymanagementsystem)
+
 
 ###  Learnings & Best Practices
 
