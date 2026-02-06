@@ -112,6 +112,7 @@ BridgeLabz-Training/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 smartuniversitymanagementsystem/                                 # SOLID principles and design patterns
+│   │               └── 📁 multithreading/                                                  # Thread lifecycle, synchronization, concurrency examples 
 |   |
 │   └── 📁 scenario-based/                                                                  # Real-world problems
 |
@@ -229,6 +230,7 @@ Branch: `java-design-pattern-practice`
 | Day | Date   |      Topic                                |       Coverage                                                          |
 | --- | ------ | ------------------------------------------| ------------------------------------------------------------------------|
 | 39  | 31-Jan | Design Principles & Patterns              | SOLID, DRY, YAGNI, KISS, GoF Patterns, and Class Diagrams               |
+| 40  | 02-Feb | Multithreading in Java                    | Thread lifecycle, synchronization, concurrency use cases                |
 
 ### Key Concepts Covered 
 
@@ -289,6 +291,9 @@ Java Design Pattern and Principles (`java8-design-pattern-practice`)
 - Design Principles: SOLID, DRY, KISS, YAGNI, composition over inheritance
 - Design Patterns: Singleton, Factory, Observer, Builder
 - Class Diagrams
+- Multithreading: Thread lifecycle, creation using Thread & Runnable, priorities, daemon threads
+- Synchronization: Locks, shared resource handling, race-condition prevention
+- Concurrency Testing: JUnit validation, timing logs, performance comparison
 
 
 ### Notes
@@ -358,6 +363,7 @@ Java Design Pattern and Principles (`java8-design-pattern-practice`)
 
 🔗 Branch (`java-design-pattern-practice`):
 - [Design Principles & Patterns](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternPractice/src/com/smartuniversitylibrarymanagementsystem)
+- [Multithreading in Java](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternPractice/src/com/multithreading)
 
 
 ###  Learnings & Best Practices
