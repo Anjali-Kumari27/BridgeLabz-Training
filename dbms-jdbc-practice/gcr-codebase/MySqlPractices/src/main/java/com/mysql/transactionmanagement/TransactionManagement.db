@@ -1,0 +1,140 @@
+/*Exercise 2: Transaction Management
+Implement a banking system with:
+• Transfer money between accounts (use transactions)
+• Check balance
+• Transaction history
+*/
+
+
+
+mysql> use dbmspractice;
+Database changed
+mysql> show tables;
+Empty set (0.01 sec)
+
+mysql> CREATE TABLE accounts (
+    ->     account_id INT PRIMARY KEY,
+    ->     account_holder VARCHAR(100),
+    ->     balance DECIMAL(10,2) NOT NULL
+    -> );
+Query OK, 0 rows affected (0.07 sec)
+
+
+mysql> desc accounts;
++----------------+---------------+------+-----+---------+-------+
+| Field          | Type          | Null | Key | Default | Extra |
++----------------+---------------+------+-----+---------+-------+
+| account_id     | int           | NO   | PRI | NULL    |       |
+| account_holder | varchar(100)  | YES  |     | NULL    |       |
+| balance        | decimal(10,2) | NO   |     | NULL    |       |
++----------------+---------------+------+-----+---------+-------+
+3 rows in set (0.04 sec)
+
+mysql> create table transaction_history(txn_id int AUTO_INCREMENT PRIMARY KEY, from_account INT, to_account INT, amount DECIMAL(10,2), txn_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP, status VARCHAR(20));
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> desc transaction_history;
++--------------+---------------+------+-----+-------------------+-------------------+
+| Field        | Type          | Null | Key | Default           | Extra             |
++--------------+---------------+------+-----+-------------------+-------------------+
+| txn_id       | int           | NO   | PRI | NULL              | auto_increment    |
+| from_account | int           | YES  |     | NULL              |                   |
+| to_account   | int           | YES  |     | NULL              |                   |
+| amount       | decimal(10,2) | YES  |     | NULL              |                   |
+| txn_date     | timestamp     | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
+| status       | varchar(20)   | YES  |     | NULL              |                   |
++--------------+---------------+------+-----+-------------------+-------------------+
+6 rows in set (0.00 sec)
+
+
+
+
+===========================================================
+             Insert values and Checking Blance
+===========================================================
+
+mysql> insert into accounts values (40, "Anjali", 10000), (78, "Devika", 8700),(38, "Ananya", 9300),(37, "Aaru", 6500);
+Query OK, 4 rows affected (0.03 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+mysql> select * from accounts;
++------------+----------------+----------+
+| account_id | account_holder | balance  |
++------------+----------------+----------+
+|         37 | Aaru           |  6500.00 |
+|         38 | Ananya         |  9300.00 |
+|         40 | Anjali         | 10000.00 |
+|         78 | Devika         |  8700.00 |
++------------+----------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT account_id, balance FROM accounts WHERE account_id = 38;
++------------+---------+
+| account_id | balance |
++------------+---------+
+|         38 | 9300.00 |
++------------+---------+
+1 row in set (0.00 sec)
+
+
+
+
+========================================================
+                   TRANSFER MONEY
+========================================================
+
+mysql> start transaction;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> select balance from accounts where account_id=40;
++----------+
+| balance  |
++----------+
+| 10000.00 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> update accounts
+    -> set balance = balance - 2500
+    -> where account_id = 40;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update accounts
+    -> set balance = balance + 2500
+    -> where account_id = 37;
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from accounts;
++------------+----------------+---------+
+| account_id | account_holder | balance |
++------------+----------------+---------+
+|         37 | Aaru           | 9000.00 |
+|         38 | Ananya         | 9300.00 |
+|         40 | Anjali         | 7500.00 |
+|         78 | Devika         | 8700.00 |
++------------+----------------+---------+
+4 rows in set (0.00 sec)
+
+
+
+
+========================================================
+                 TRANSACTION HISTORY
+========================================================
+
+
+mysql> insert into transaction_history(from_account, to_account, amount, status) values (40, 37, 2500, "SUCCESS");
+Query OK, 1 row affected (0.03 sec)
+
+mysql> COMMIT;
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> select * from transaction_history;
++--------+--------------+------------+---------+---------------------+---------+
+| txn_id | from_account | to_account | amount  | txn_date            | status  |
++--------+--------------+------------+---------+---------------------+---------+
+|      1 |           40 |         37 | 2500.00 | 2026-02-08 17:10:18 | SUCCESS |
++--------+--------------+------------+---------+---------------------+---------+
+1 row in set (0.00 sec)
