@@ -1,0 +1,126 @@
+
+/* Exercise 1: Simple CRUD Application
+Create a console-based Employee Management System with:
+• Add employee
+• View all employees
+• Update employee salary
+• Delete employee
+• Search employee by name 
+*/
+
+mysql> create database Employee;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use employee;
+Database changed
+
+mysql> create table EmployeeSys(id int(11) primary key, name varchar(50) not null, salary int(11) not null);
+Query OK, 0 rows affected, 2 warnings (0.08 sec)
+
+mysql> show tables;
++--------------------+
+| Tables_in_employee |
++--------------------+
+| employeesys        |
++--------------------+
+1 row in set (0.02 sec)
+
+mysql> desc employeesys;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| id     | int         | NO   | PRI | NULL    |       |
+| name   | varchar(50) | NO   |     | NULL    |       |
+| salary | int         | NO   |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+
+
+=======================================================
+                  ADDING EMPLOYEE
+=======================================================
+
+
+mysql> insert into employeesys values(1, "Anjali", 5000), (2, "Devika", 5200), (3, "Saima", 4500), (17, "Chhavi", 5600), (45, "Ananya", 4900);
+Query OK, 5 rows affected (0.03 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+
+
+=======================================================
+                 VIEW ALL EMPLOYEES
+=======================================================
+
+
+mysql> select * from employeesys;
++----+--------+--------+
+| id | name   | salary |
++----+--------+--------+
+|  1 | Anjali |   5000 |
+|  2 | Devika |   5200 |
+|  3 | Saima  |   4500 |
+| 17 | Chhavi |   5600 |
+| 45 | Ananya |   4900 |
++----+--------+--------+
+5 rows in set (0.00 sec)
+
+
+=======================================================
+                UPDATE EMPLOYEE SALARY
+=======================================================
+
+
+mysql> update employeesys set salary = 8000 where name = "Anjali";
+Query OK, 1 row affected (0.04 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update employeesys set salary = 7500 where id >= 3 and id <= 17;
+Query OK, 2 rows affected (0.01 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+mysql> select * from employeesys;
++----+--------+--------+
+| id | name   | salary |
++----+--------+--------+
+|  1 | Anjali |   8000 |
+|  2 | Devika |   5200 |
+|  3 | Saima  |   7500 |
+| 17 | Chhavi |   7500 |
+| 45 | Ananya |   4900 |
++----+--------+--------+
+5 rows in set (0.00 sec)
+
+
+
+=======================================================
+                  DELETE EMPLOYEE
+=======================================================
+
+
+mysql> delete from employeesys where id = 3;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from employeesys;
++----+--------+--------+
+| id | name   | salary |
++----+--------+--------+
+|  1 | Anjali |   8000 |
+|  2 | Devika |   5200 |
+| 17 | Chhavi |   7500 |
+| 45 | Ananya |   4900 |
++----+--------+--------+
+4 rows in set (0.00 sec)
+
+
+
+=======================================================
+                SEARCH EMPLOYEE BY NAME
+=======================================================
+
+
+mysql> select * from employeesys where name LIKE '%Anjali%';
++----+--------+--------+
+| id | name   | salary |
++----+--------+--------+
+|  1 | Anjali |   8000 |
++----+--------+--------+
+1 row in set (0.01 sec)
