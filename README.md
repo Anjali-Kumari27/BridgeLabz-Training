@@ -9,6 +9,7 @@ Each branch focuses on a specific phase of learning:
 - Java I/o Streams
 - Java 8 Features
 - Java Design Pattern Practice
+- Java JDBC Practice
 
 
 ### High-Level Project Structure
@@ -115,6 +116,19 @@ BridgeLabz-Training/
 │   │               └── 📁 multithreading/                                                  # Thread lifecycle, synchronization, concurrency examples 
 |   |
 │   └── 📁 scenario-based/                                                                  # Real-world problems
+|
+├── 📁 dbms-jdbc-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁  MySqlPractices/
+│   │       ├── 📁 src/
+│   │       │   └── 📁 main/
+│   │       │       └── 📁 resources/
+│   │       │           └── 📁 com/
+│   │       │               └── 📁 mysql/                                                # SQL scripts, DBMS fundamentals & MySQL DB
+│   │       │
+│   │       └── pom.xml                                                                  # Maven configuration and dependency management
+│   │
+│   └── 📁 scenario-based-codebase/                                                     # Real-world problems
 |
 └── README.md
 
@@ -232,6 +246,13 @@ Branch: `java-design-pattern-practice`
 | 39  | 31-Jan | Design Principles & Patterns              | SOLID, DRY, YAGNI, KISS, GoF Patterns, and Class Diagrams               |
 | 40  | 02-Feb | Multithreading in Java                    | Thread lifecycle, synchronization, concurrency use cases                |
 
+
+### Week 8: JavaJDBC and MySql Practice
+Branch: `dbms-jdbc-practice`
+| Day | Date   |      Topic                                |       Coverage                                                          |
+| --- | ------ | ------------------------------------------| ------------------------------------------------------------------------|
+| 42  | 06-Feb | DBMS & SQL Optimization                   | Normalization, joins, transactions, indexes, tuning & EXPLAIN           |
+
 ### Key Concepts Covered 
 
 Core Java (`core-java-practice`)
@@ -295,7 +316,16 @@ Java Design Pattern and Principles (`java8-design-pattern-practice`)
 - Synchronization: Locks, shared resource handling, race-condition prevention
 - Concurrency Testing: JUnit validation, timing logs, performance comparison
 
+Java JDBC Practice (`dbms-jdbc-practice`)
+- Database Design: Normal forms (1NF–4NF, BCNF), schema modeling
+- Keys: Primary, foreign, composite, candidate, unique
+- SQL Commands: DDL, DML, DQL, DCL, TCL
+- Joins: Inner, outer, cross, self joins
+- Advanced Queries: Subqueries, CTEs, window functions
+- Indexing: Clustered, non-clustered, composite, full-text
+- Query Optimization: Execution plans, EXPLAIN, tuning strategies
 
+  
 ### Notes
 
 1. Each branch contains its own detailed README with day-wise learning logs
@@ -365,7 +395,10 @@ Java Design Pattern and Principles (`java8-design-pattern-practice`)
 - [Design Principles & Patterns](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternPractice/src/com/smartuniversitylibrarymanagementsystem)
 - [Multithreading in Java](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignPatternPractice/src/com/multithreading)
 
+🔗 Branch (`dbms-jdbc-practice`):
+- [DBMC Concepts & MySql](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/MySqlPractices/src/main/java/com/mysql)
 
+  
 ###  Learnings & Best Practices
 
 - Code Organization: Following industrial standards
