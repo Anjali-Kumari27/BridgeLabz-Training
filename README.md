@@ -252,6 +252,7 @@ Branch: `dbms-jdbc-practice`
 | Day | Date   |      Topic                                |       Coverage                                                          |
 | --- | ------ | ------------------------------------------| ------------------------------------------------------------------------|
 | 42  | 06-Feb | DBMS & SQL Optimization                   | Normalization, joins, transactions, indexes, tuning & EXPLAIN           |
+| 43  | 07-Feb | Scenario Based Problems                   | Using DBMS and SQL Concepts                                             |
 
 ### Key Concepts Covered 
 
@@ -324,6 +325,7 @@ Java JDBC Practice (`dbms-jdbc-practice`)
 - Advanced Queries: Subqueries, CTEs, window functions
 - Indexing: Clustered, non-clustered, composite, full-text
 - Query Optimization: Execution plans, EXPLAIN, tuning strategies
+- Problem Solving: Real-world scenario problems
 
   
 ### Notes
@@ -397,6 +399,7 @@ Java JDBC Practice (`dbms-jdbc-practice`)
 
 🔗 Branch (`dbms-jdbc-practice`):
 - [DBMC Concepts & MySql](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/MySqlPractices/src/main/java/com/mysql)
+- [Scenario-Based Solutions](https://github.com/Anjali-Kumari27/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/scenario-based/ScenarioBasedQuestions/src/com/mysql)
 
   
 ###  Learnings & Best Practices
