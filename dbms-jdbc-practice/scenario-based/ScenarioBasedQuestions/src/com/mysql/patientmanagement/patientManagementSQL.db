@@ -1,0 +1,274 @@
+/* 1. Patient Management
+
+UC-1.1: Register New Patient
+Actor: Receptionist
+Flow: Enter patient details (name, DOB, contact, address, blood group). System validates uniqueness by phone/email, generates patient ID, inserts record into patients table with auto-increment primary key.
+
+UC-1.2: Update Patient Information
+Actor: Receptionist
+Flow: Search patient by ID/phone, display current details, update fields, execute SQL UPDATE with WHERE clause on patient ID.
+
+UC-1.3: Search Patient Records
+Actor: Receptionist/Doctor
+Flow: Query patients table using LIKE operator for name search or exact match for ID/phone. Display results using ResultSet iteration.
+
+UC-1.4: View Patient Visit History
+Actor: Doctor/Receptionist
+Flow: Execute JOIN query between appointments and visits tables filtered by patient ID. Display chronological list with doctor names and diagnoses.
+*/
+
+==============================================
+            CREATING TABLES
+==============================================
+
+mysql> use dbmspractice;
+Database changed
+
+mysql> CREATE TABLE patients (
+    ->   patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->   full_name  VARCHAR(100) NOT NULL,
+    ->   dob        DATE NOT NULL,
+    ->   phone      VARCHAR(15) NOT NULL,
+    ->   email      VARCHAR(120) NULL,
+    ->   address    VARCHAR(255) NULL,
+    ->   blood_group ENUM('A+','A-','B+','B-','AB+','AB-','O+','O-') NULL,
+    ->   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ->
+    ->   UNIQUE KEY uq_patients_phone (phone),
+    ->   UNIQUE KEY uq_patients_email (email)
+    -> );
+Query OK, 0 rows affected (0.15 sec)
+
+mysql> desc patients;
++-------------+-------------------------------------------------+------+-----+-------------------+-------------------+
+| Field       | Type                                            | Null | Key | Default           | Extra             |
++-------------+-------------------------------------------------+------+-----+-------------------+-------------------+
+| patient_id  | int                                             | NO   | PRI | NULL              | auto_increment    |
+| full_name   | varchar(100)                                    | NO   |     | NULL              |                   |
+| dob         | date                                            | NO   |     | NULL              |                   |
+| phone       | varchar(15)                                     | NO   | UNI | NULL              |                   |
+| email       | varchar(120)                                    | YES  | UNI | NULL              |                   |
+| address     | varchar(255)                                    | YES  |     | NULL              |                   |
+| blood_group | enum('A+','A-','B+','B-','AB+','AB-','O+','O-') | YES  |     | NULL              |                   |
+| created_at  | timestamp                                       | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++-------------+-------------------------------------------------+------+-----+-------------------+-------------------+
+8 rows in set (0.02 sec)
+
+mysql> CREATE TABLE doctors (
+    ->   doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->   doctor_name VARCHAR(100) NOT NULL,
+    ->   specialization VARCHAR(100) NULL
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> desc doctors;
++----------------+--------------+------+-----+---------+----------------+
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| doctor_id      | int          | NO   | PRI | NULL    | auto_increment |
+| doctor_name    | varchar(100) | NO   |     | NULL    |                |
+| specialization | varchar(100) | YES  |     | NULL    |                |
++----------------+--------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+
+mysql> CREATE TABLE appointments (
+    ->   appointment_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->   patient_id INT NOT NULL,
+    ->   doctor_id INT NOT NULL,
+    ->   appointment_date DATETIME NOT NULL,
+    ->   status ENUM('BOOKED','CANCELLED','COMPLETED') DEFAULT 'BOOKED',
+    ->
+    ->   FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    ->   FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id),
+    ->
+    ->   INDEX idx_appt_patient_date (patient_id, appointment_date)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> desc appointments;
++------------------+----------------------------------------+------+-----+---------+----------------+
+| Field            | Type                                   | Null | Key | Default | Extra          |
++------------------+----------------------------------------+------+-----+---------+----------------+
+| appointment_id   | int                                    | NO   | PRI | NULL    | auto_increment |
+| patient_id       | int                                    | NO   | MUL | NULL    |                |
+| doctor_id        | int                                    | NO   | MUL | NULL    |                |
+| appointment_date | datetime                               | NO   |     | NULL    |                |
+| status           | enum('BOOKED','CANCELLED','COMPLETED') | YES  |     | BOOKED  |                |
++------------------+----------------------------------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+mysql> CREATE TABLE visits (
+    ->   visit_id INT AUTO_INCREMENT PRIMARY KEY,
+    ->   appointment_id INT NOT NULL,
+    ->   visit_date DATETIME NOT NULL,
+    ->   diagnosis VARCHAR(255) NULL,
+    ->   notes TEXT NULL,
+    ->
+    ->   FOREIGN KEY (appointment_id) REFERENCES appointments(appointment_id),
+    ->
+    ->   INDEX idx_visit_date (visit_date)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> desc visits;
++----------------+--------------+------+-----+---------+----------------+
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| visit_id       | int          | NO   | PRI | NULL    | auto_increment |
+| appointment_id | int          | NO   | MUL | NULL    |                |
+| visit_date     | datetime     | NO   | MUL | NULL    |                |
+| diagnosis      | varchar(255) | YES  |     | NULL    |                |
+| notes          | text         | YES  |     | NULL    |                |
++----------------+--------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+
+
+================================================
+          REGISTERING NEW PATIENT
+================================================
+
+
+mysql> INSERT INTO patients (full_name, dob, phone, email, address, blood_group)
+    -> VALUES ('Anjali Kumari', '2002-05-20', '9876543210', 'anjali@gmail.com', 'Gorakhpur, UP', 'B+');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> INSERT INTO patients (full_name, dob, phone, email, address, blood_group)
+    -> VALUES ('Arpita Singh', '2004-02-02', '9034521232', 'arpita@gmail.com', 'Varanasi, UP', 'A+');
+Query OK, 1 row affected (0.07 sec)
+
+mysql> INSERT INTO patients (full_name, dob, phone, email, address, blood_group) VALUES ('Devika Chakravarti', '2002-03-08', '7654381324', 'devika@gmail.com', 'Katni, MP', 'O+');
+Query OK, 1 row affected (0.01 sec)
+
+
+mysql> SELECT LAST_INSERT_ID() AS new_patient_id;
++----------------+
+| new_patient_id |
++----------------+
+|              3 |
++----------------+
+1 row in set (0.10 sec)
+
+mysql> SELECT * FROM patients;
++------------+--------------------+------------+------------+------------------+---------------+-------------+---------------------+
+| patient_id | full_name          | dob        | phone      | email            | address       | blood_group | created_at          |
++------------+--------------------+------------+------------+------------------+---------------+-------------+---------------------+
+|          1 | Anjali Kumari      | 2002-05-20 | 9876543210 | anjali@gmail.com | Gorakhpur, UP | B+          | 2026-02-13 11:30:27 |
+|          2 | Arpita Singh       | 2004-02-02 | 9034521232 | arpita@gmail.com | Varanasi, UP  | A+          | 2026-02-13 11:43:38 |
+|          3 | Devika Chakravarti | 2002-03-08 | 7654381324 | devika@gmail.com | Katni, MP     | O+          | 2026-02-13 11:46:37 |
++------------+--------------------+------------+------------+------------------+---------------+-------------+---------------------+
+3 rows in set (0.07 sec)
+
+
+=============================================
+          UPDATING PATIENT INFO
+=============================================
+
+
+mysql> SELECT * FROM patients WHERE patient_id = 2;
++------------+--------------+------------+------------+------------------+--------------+-------------+---------------------+
+| patient_id | full_name    | dob        | phone      | email            | address      | blood_group | created_at          |
++------------+--------------+------------+------------+------------------+--------------+-------------+---------------------+
+|          2 | Arpita Singh | 2004-02-02 | 9034521232 | arpita@gmail.com | Varanasi, UP | A+          | 2026-02-13 11:43:38 |
++------------+--------------+------------+------------+------------------+--------------+-------------+---------------------+
+1 row in set (0.03 sec)
+
+mysql> UPDATE patients
+    -> SET address = 'Delhi, India',
+    ->     blood_group = 'O+'
+    -> WHERE patient_id = 2;
+Query OK, 1 row affected (0.06 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM patients WHERE patient_id = 2;
++------------+--------------+------------+------------+------------------+--------------+-------------+---------------------+
+| patient_id | full_name    | dob        | phone      | email            | address      | blood_group | created_at          |
++------------+--------------+------------+------------+------------------+--------------+-------------+---------------------+
+|          2 | Arpita Singh | 2004-02-02 | 9034521232 | arpita@gmail.com | Delhi, India | O+          | 2026-02-13 11:43:38 |
++------------+--------------+------------+------------+------------------+--------------+-------------+---------------------+
+1 row in set (0.00 sec)
+
+
+
+=============================================
+           SEARCHING PATIENT
+=============================================
+
+***********************
+  USING LIKE OPERATOR
+***********************
+
+mysql> SELECT * FROM patients
+    -> WHERE full_name LIKE '%Anjali%';
++------------+---------------+------------+------------+------------------+---------------+-------------+---------------------+
+| patient_id | full_name     | dob        | phone      | email            | address       | blood_group | created_at          |
++------------+---------------+------------+------------+------------------+---------------+-------------+---------------------+
+|          1 | Anjali Kumari | 2002-05-20 | 9876543210 | anjali@gmail.com | Gorakhpur, UP | B+          | 2026-02-13 11:30:27 |
++------------+---------------+------------+------------+------------------+---------------+-------------+---------------------+
+1 row in set (0.03 sec)
+
+
+********************
+     USING PHONE
+********************
+
+mysql> SELECT * FROM patients
+    -> WHERE phone = '7654381324';
++------------+--------------------+------------+------------+------------------+-----------+-------------+---------------------+
+| patient_id | full_name          | dob        | phone      | email            | address   | blood_group | created_at          |
++------------+--------------------+------------+------------+------------------+-----------+-------------+---------------------+
+|          3 | Devika Chakravarti | 2002-03-08 | 7654381324 | devika@gmail.com | Katni, MP | O+          | 2026-02-13 11:46:37 |
++------------+--------------------+------------+------------+------------------+-----------+-------------+---------------------+
+1 row in set (0.02 sec)
+
+
+*****************
+    USING ID
+*****************
+
+mysql> SELECT * FROM patients
+    -> WHERE patient_id = 1;
++------------+---------------+------------+------------+------------------+---------------+-------------+---------------------+
+| patient_id | full_name     | dob        | phone      | email            | address       | blood_group | created_at          |
++------------+---------------+------------+------------+------------------+---------------+-------------+---------------------+
+|          1 | Anjali Kumari | 2002-05-20 | 9876543210 | anjali@gmail.com | Gorakhpur, UP | B+          | 2026-02-13 11:30:27 |
++------------+---------------+------------+------------+------------------+---------------+-------------+---------------------+
+1 row in set (0.00 sec)
+
+
+
+===============================================
+           PATIENT VISIT HISTORY 
+===============================================
+
+mysql> INSERT INTO doctors (doctor_name, specialization)
+    -> VALUES ('Dr. Sharma', 'Cardiologist');
+Query OK, 1 row affected (0.10 sec)
+
+mysql> INSERT INTO appointments (patient_id, doctor_id, appointment_date, status)
+    -> VALUES (1, 1, '2026-02-15 10:30:00', 'COMPLETED');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> INSERT INTO visits (appointment_id, visit_date, diagnosis, notes)
+    -> VALUES (1, '2026-02-15 11:00:00', 'Mild Fever', 'Prescribed paracetamol');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> SELECT
+    ->     p.full_name,
+    ->     a.appointment_date,
+    ->     v.visit_date,
+    ->     d.doctor_name,
+    ->     v.diagnosis
+    -> FROM patients p
+    -> JOIN appointments a ON p.patient_id = a.patient_id
+    -> JOIN visits v ON a.appointment_id = v.appointment_id
+    -> JOIN doctors d ON a.doctor_id = d.doctor_id
+    -> WHERE p.patient_id = 1
+    -> ORDER BY v.visit_date DESC;
++---------------+---------------------+---------------------+-------------+------------+
+| full_name     | appointment_date    | visit_date          | doctor_name | diagnosis  |
++---------------+---------------------+---------------------+-------------+------------+
+| Anjali Kumari | 2026-02-15 10:30:00 | 2026-02-15 11:00:00 | Dr. Sharma  | Mild Fever |
++---------------+---------------------+---------------------+-------------+------------+
+1 row in set (0.03 sec)
+
