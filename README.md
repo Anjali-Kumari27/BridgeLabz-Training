@@ -119,12 +119,13 @@ BridgeLabz-Training/
 |
 ├── 📁 dbms-jdbc-practice/
 │   ├── 📁 gcr-codebase/
-│   │   └── 📁  MySqlPractices/
+│   │   └── 📁  JDBCDBMSPractice/
 │   │       ├── 📁 src/
 │   │       │   └── 📁 main/
-│   │       │       └── 📁 resources/
+│   │       │       └── 📁 java/
 │   │       │           └── 📁 com/
 │   │       │               └── 📁 mysql/                                                # SQL scripts, DBMS fundamentals & MySQL DB
+│   │       │               └── 📁 jdbc/                                                 # SQL queries using JDBC
 │   │       │
 │   │       └── pom.xml                                                                  # Maven configuration and dependency management
 │   │
