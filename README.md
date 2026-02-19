@@ -250,10 +250,11 @@ Branch: `java-design-pattern-practice`
 
 ### Week 8: JavaJDBC and MySql Practice
 Branch: `dbms-jdbc-practice`
-| Day | Date   |      Topic                                |       Coverage                                                          |
-| --- | ------ | ------------------------------------------| ------------------------------------------------------------------------|
-| 42  | 06-Feb | DBMS & SQL Optimization                   | Normalization, joins, transactions, indexes, tuning & EXPLAIN           |
-| 43  | 07-Feb | Scenario Based Problems                   | Using DBMS and SQL Concepts                                             |
+| Day | Date   |      Topic                                |       Coverage                                                            |
+| --- | ------ | ------------------------------------------| --------------------------------------------------------------------------|
+| 42  | 06-Feb | DBMS & SQL Optimization                   | Normalization, joins, transactions, indexes, tuning & EXPLAIN             |
+| 43  | 07-Feb | Scenario Based Problems                   | Using DBMS and SQL Concepts                                               |
+| 44  | 09-Feb | JDBC fundamentals and Connectivity        | JDBC architecture, CRUD operations, Transaction and DAO/DTO patterns      |
 
 ### Key Concepts Covered 
 
@@ -327,6 +328,11 @@ Java JDBC Practice (`dbms-jdbc-practice`)
 - Indexing: Clustered, non-clustered, composite, full-text
 - Query Optimization: Execution plans, EXPLAIN, tuning strategies
 - Problem Solving: Real-world scenario problems
+- JDBC Architecture: DriverManager, Connection, Statement APIs
+- Database Operations: CRUD using PreparedStatement
+- Transactions: Commit, rollback, savepoints, auto-commit handling
+- Design Patterns: DAO and DTO for database applications
+
 
   
 ### Notes
